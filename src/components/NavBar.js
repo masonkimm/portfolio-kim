@@ -23,7 +23,7 @@ export default function NavBar() {
       >
         Home
       </Link>
-      <Link to="about" smooth={true} offset={-50}>
+      <Link to="about" smooth={true}>
         About
       </Link>
       <Link to="experience" smooth={true}>

@@ -1,4 +1,104 @@
 .about {
   height: 100vh;
   width: 100%;
+  display: inline-flex;
+}
+
+.about__leftSide {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+}
+.about__leftSide > h1 {
+  font-weight: 100;
+  font-size: 6rem;
+}
+
+.about__rightSide {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about__top {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+.about__overView {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+.about__overView > h2 {
+  padding: 5px;
+}
+
+.about__overView > h3 {
+  display: flex;
+  justify-content: baseline;
+  text-align: center;
+  font-weight: 200;
+  margin: 20px 0;
+  width: 55%;
+  height: 10px;
+}
+
+/* .about__overView > img {
+  height: 200px;
+  width: 100px;
+  object-fit: contain;
+} */
+.about__menu {
+  /* border: 1px solid black; */
+  /* margin-top: -250px; */
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__menu > button {
+  background-color: transparent;
+  margin: 0 15px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.about__education {
+  display: flex;
+}
+
+.about__gwu,
+.about__gmu {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  flex: 1.5;
+  border: 1px solid black;
+  border-radius: 17px;
+  text-align: center;
+  height: 30vh;
+}
+.about__gwu__img,
+.about__gmu__img {
+  height: 100px;
+  object-fit: contain;
+
+  margin: 20px 0;
+}
+
+.about__gmu__img {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
