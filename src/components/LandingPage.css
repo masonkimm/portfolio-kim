@@ -1,0 +1,21 @@
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.landingPage > h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  margin: 25px;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+  /* border-bottom: 1px solid black; */
+}
+
+.landingPage > h1 > span,
+.landingPage > h2 {
+  color: rgb(131, 128, 128);
+}
