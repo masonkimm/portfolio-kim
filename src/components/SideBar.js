@@ -1,71 +1,42 @@
 import React from 'react';
-
-import './NavBar.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
-
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
+import './SideBar.css';
 
-export default function NavBar() {
+export default function SideBar() {
   return (
-    <div className="navBar">
-      <Timeline>
+    <div className="sideBar">
+      <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>
-            <Link
-              to="landingPage"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Home
-            </Link>
-          </TimelineContent>
+          <TimelineContent>Eat</TimelineContent>
         </TimelineItem>
-
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot />
+            <TimelineDot color="primary" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>
-            <Link to="about" smooth={true}>
-              About
-            </Link>
-          </TimelineContent>
+          <TimelineContent>Code</TimelineContent>
         </TimelineItem>
-
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot />
+            <TimelineDot color="secondary" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent>
-            <Link to="projects" smooth={true}>
-              Projects
-            </Link>
-          </TimelineContent>
+          <TimelineContent>Sleep</TimelineContent>
         </TimelineItem>
-
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
           </TimelineSeparator>
-          <TimelineContent>
-            <Link to="contact" smooth={true}>
-              Contact
-            </Link>
-          </TimelineContent>
+          <TimelineContent>Repeat</TimelineContent>
         </TimelineItem>
       </Timeline>
     </div>

@@ -6,33 +6,17 @@ import { GiTeamIdea } from 'react-icons/gi';
 export default function About() {
   const [showMain, setShowMain] = useState(true);
   const [showEducation, setShowEducation] = useState(false);
-  const [showWork, setShowWork] = useState(false);
 
   const handleShowMain = () => {
     setShowMain(!showMain);
     if (showEducation === true) {
       setShowEducation(!true);
     }
-    if (showWork === true) {
-      setShowWork(!true);
-    }
   };
   const handleShowEducation = () => {
     setShowEducation(!showEducation);
     if (showMain === true) {
       setShowMain(!true);
-    }
-    if (showWork === true) {
-      setShowWork(!true);
-    }
-  };
-  const handleShowWork = () => {
-    setShowWork(!showWork);
-    if (showMain === true) {
-      setShowMain(!true);
-    }
-    if (showEducation === true) {
-      setShowEducation(!true);
     }
   };
 
@@ -43,7 +27,6 @@ export default function About() {
         <div className="about__menu">
           <button onClick={handleShowMain}>Main</button>
           <button onClick={handleShowEducation}>Education</button>
-          <button onClick={handleShowWork}>Work Experience</button>
         </div>
       </div>
 
@@ -84,55 +67,36 @@ export default function About() {
 
         {showEducation ? (
           <div className="about__education">
-            <div className="about__school">
-              <div className="about__school__leftSide">
-                <img
-                  src="https://rb.gy/yzahfj"
-                  alt="gmu logo"
-                  className="about__gmu__img"
-                />
-              </div>
-              <div className="about__school__rightSide">
-                <h2>George Mason University</h2>
-
-                <h4>BS in Neuroscience</h4>
-                <p>Graudation date: June 2016</p>
-              </div>
-            </div>
-            <div className="about__school">
-              <div className="about__school__leftSide">
-                <img
-                  src="https://rb.gy/8gycsg"
-                  alt="gwu logo"
-                  className="about__gwu__img"
-                />
-              </div>
-              <div className="about__school__rightSide">
-                <h2>George Washington University</h2>
-                <h4>Full Stack Web Development Certification</h4>
-                <p>Graduation Date: June 2020</p>
-              </div>
-            </div>
-          </div>
-        ) : null}
-
-        {showWork ? (
-          <div className="about__work">
-            <div className="about__work__leftSide">
+            <div className="about__gwu">
+              <h2>George Washington University</h2>
               <img
-                src="https://rb.gy/yhcmzq"
-                alt="hhmi logo"
-                className="about__hhmi__img"
+                src="https://rb.gy/8gycsg"
+                alt="gwu logo"
+                className="about__gwu__img"
               />
+              <h4>Full Stack Web Development Certification</h4>
+              <p>Graduation Date: June 2020</p>
             </div>
-            <div className="about__work__rightSide">
-              <h2>HHMI-Janelia Research</h2>
-
-              <h4>Connectome Annotator</h4>
-              <p>Work Date: 2017-2020</p>
+            <div className="about__gmu">
+              <h2>George Mason University</h2>
+              <img
+                src="https://rb.gy/yzahfj"
+                alt="gmu logo"
+                className="about__gmu__img"
+              />
+              <h4>BS in Neuroscience</h4>
+              <p>Graudation date: June 2016</p>
             </div>
           </div>
         ) : null}
+
+        {/* {showTwo ? (
+              <div className="about__specialties">
+                Technical Skills: HTML, JavaScript, CSS, Bootstrap, jQuery, ES6,
+                APIs, AJAX, Node.js, Express, Express-Handlebars, MySQL,
+                MongoDB, Mongoose, GIT, GitHub, Command-Line, Heroku, React.js.
+              </div>
+            ) : null} */}
       </div>
     </div>
   );

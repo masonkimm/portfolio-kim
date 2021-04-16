@@ -1,0 +1,13 @@
+.school__logo {
+  object-fit: contain;
+  height: 120px;
+  width: 200px;
+}
+
+.school {
+  height: 40vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+}

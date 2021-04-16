@@ -4,8 +4,9 @@ import LandingPage from './components/LandingPage';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './components/About';
-import Experience from './components/Experience';
+
 import { Link, animateScroll as scroll } from 'react-scroll';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <div className="app__body">
         <LandingPage />
         <About />
-        <Experience />
+        <Projects />
       </div>
       <Footer />
 

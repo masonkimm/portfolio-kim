@@ -7,6 +7,7 @@
 .about__leftSide {
   flex: 1.5;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -17,6 +18,39 @@
   font-weight: 100;
   font-size: 6rem;
 }
+.about__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px 0;
+}
+.about__links > a {
+  color: white;
+  padding: 8px;
+  margin: 8px 0;
+  box-shadow: 0px 5px 8px -9px rgba(245, 240, 240, 0.75);
+}
+.about__menu {
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__menu > button {
+  font-size: 1.1rem;
+  background-color: transparent;
+  margin: 0 2px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border: none;
+  /* box-shadow: 0px 5px 8px -9px rgba(245, 240, 240, 0.75); */
+  /* border: 1px solid white; */
+}
 
 .about__rightSide {
   flex: 1.5;
@@ -25,12 +59,12 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.about__top {
+.about__main {
   display: flex;
   justify-content: space-evenly;
   /* border: 1px solid black; */
 }
-.about__overView {
+.about__mainItem {
   display: flex;
   flex-direction: column;
   /* border: 1px solid black; */
@@ -38,11 +72,11 @@
   justify-content: space-around;
   align-items: center;
 }
-.about__overView > h2 {
+.about__mainItem > h2 {
   padding: 5px;
 }
 
-.about__overView > h3 {
+.about__mainItem > h3 {
   display: flex;
   justify-content: baseline;
   text-align: center;
@@ -52,53 +86,95 @@
   height: 10px;
 }
 
-/* .about__overView > img {
-  height: 200px;
-  width: 100px;
-  object-fit: contain;
-} */
-.about__menu {
-  /* border: 1px solid black; */
-  /* margin-top: -250px; */
-  padding: 15px;
+.about__education {
   display: flex;
+  flex-direction: column;
+  height: 90vh;
+
+  width: 100%;
+}
+
+.about__school {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 17px;
+  height: 50vh;
+  box-shadow: 0px 5px 8px -9px rgba(27, 26, 26, 0.75);
+  align-items: flex-start;
+}
+
+.about__school__leftSide {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.about__school__leftSide img {
+  height: 150px;
+  object-fit: contain;
+}
+.about__gmu__img {
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.about__school__rightSide {
+  height: 40vh;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-.about__menu > button {
-  background-color: transparent;
-  margin: 0 15px;
+.about__school__rightSide h2 {
+  margin-bottom: 2rem;
   padding: 10px;
-  outline: none;
-  cursor: pointer;
 }
-.about__education {
-  display: flex;
+.about__school__rightSide p {
+  margin-top: 1rem;
+  padding: 10px;
 }
 
-.about__gwu,
-.about__gmu {
-  margin: 30px;
+.about__work {
+  display: flex;
+  height: 50vh;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 5px 8px -9px rgba(27, 26, 26, 0.75);
+}
+
+.about__work__leftSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+  height: 40vh;
+}
+.about__work__leftSide img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.about__work__rightSide {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  flex: 2;
+  align-items: center;
+}
+
+.about__work__rightSide h2 {
+  margin-bottom: 2rem;
   padding: 10px;
-  flex: 1.5;
-  border: 1px solid black;
-  border-radius: 17px;
-  text-align: center;
-  height: 30vh;
 }
-.about__gwu__img,
-.about__gmu__img {
-  height: 100px;
-  object-fit: contain;
-
-  margin: 20px 0;
-}
-
-.about__gmu__img {
-  margin-top: 20px;
-  margin-bottom: 30px;
+.about__work__rightSide p {
+  margin-top: 1rem;
+  padding: 10px;
 }
