@@ -9,8 +9,8 @@ import StepContent from '@material-ui/core/StepContent';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import School from './School';
-import Overview from './Overview';
+import School from '../School';
+import Overview from '../Overview';
 
 const useStyles = makeStyles((theme) => ({
   root: {
