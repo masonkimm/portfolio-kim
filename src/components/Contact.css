@@ -1,0 +1,26 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+/*
+.contact__heading {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 8px -9px rgba(245, 240, 240, 0.75);
+}
+.contact__heading h1,
+h3 {
+  font-weight: 100;
+  color: white;
+  font-size: 6rem;
+  font-weight: 100;
+} */

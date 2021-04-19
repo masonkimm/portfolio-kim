@@ -26,15 +26,18 @@
   justify-content: center;
 }
 
-.about__menu > button {
+.about__menu button {
   font-size: 1.1rem;
   background-color: transparent;
   margin: 0 2px;
   padding: 10px;
   outline: none;
   cursor: pointer;
-  color: white;
+  color: gray;
   border: none;
+}
+.about__menu button:hover {
+  color: white;
   box-shadow: 0px 5px 8px -9px rgba(245, 240, 240, 0.75);
 }
 

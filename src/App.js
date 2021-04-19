@@ -7,6 +7,7 @@ import About from './components/About';
 
 import { Link, animateScroll as scroll } from 'react-scroll';
 import ProjectPage from './components/ProjectPage';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <LandingPage />
         <About />
         <ProjectPage />
+        <Contact />
       </div>
       <Footer />
 

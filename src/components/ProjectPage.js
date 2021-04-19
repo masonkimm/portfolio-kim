@@ -17,7 +17,7 @@ import weatherApp__main from './img/weatherApp__main.png';
 
 export default function ProjectPage() {
   return (
-    <div className="projectPage" id="projects">
+    <div className="projectPage" id="">
       <div className="projectPage__heading">
         <h1>Projects</h1>
         <div className="projectPage__icons">
