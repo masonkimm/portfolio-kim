@@ -17,13 +17,19 @@ export default function LandingPage() {
 
       <div className="landingPage__icons">
         <h2>
-          <AiOutlineMail />
+          <a href="https://github.com/masonkimm" target="_blank">
+            <AiOutlineMail />
+          </a>
         </h2>
         <h2>
-          <AiFillLinkedin />
+          <a href="https://www.linkedin.com/in/masonkimm" target="_blank">
+            <AiFillLinkedin />
+          </a>
         </h2>
         <h2>
-          <AiOutlineGithub />
+          <a href="https://github.com/masonkimm" target="_blank">
+            <AiOutlineGithub />
+          </a>
         </h2>
       </div>
       <SideBar />
