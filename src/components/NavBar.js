@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './NavBar.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -26,8 +26,6 @@ export default function NavBar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-70}
-                duration={500}
               >
                 Home
               </Link>

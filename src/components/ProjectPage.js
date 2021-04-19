@@ -14,6 +14,11 @@ import {
 import { GrMysql } from 'react-icons/gr';
 
 import weatherApp__main from './img/weatherApp__main.png';
+import todoList__main from './img/todoList__main.png';
+import snippetSaver__main from './img/snippetSaver__main.png';
+import covidTracker__main from './img/covidTracker__main.png';
+import netflixClone__main from './img/netflixClone__main.png';
+import fbClone__main from './img/fbClone__main.png';
 
 export default function ProjectPage() {
   return (
@@ -58,19 +63,32 @@ export default function ProjectPage() {
         <div className="projectPage__row">
           {/* column 1 */}
           <div className="projectPage__column">
-            <img src="https://rb.gy/tbxckj" alt="" />
-            <img src="https://rb.gy/iviien" alt="" />
+            {/* <img src="https://rb.gy/gyeptl" alt="" /> */}
+
+            <img src={weatherApp__main} alt="" />
+
+            <img src={todoList__main} alt="" />
+            <img src="https://rb.gy/wce0ju" alt="" />
+
+            {/* <img src="https://rb.gy/tbxckj" alt="" /> */}
+            {/* <img src="https://rb.gy/iviien" alt="" /> */}
           </div>
           {/* column 2 */}
           <div className="projectPage__column">
-            <img src="https://rb.gy/zbvpzd" alt="" />
+            <img src={snippetSaver__main} alt="" />
+            <img src={covidTracker__main} alt="" />
+            {/* <img src="https://rb.gy/qktl9m" alt="" /> */}
+
+            {/* <img src="https://rb.gy/zbvpzd" alt="" /> */}
             <img src="https://rb.gy/tq7rvd" alt="" />
-            <img src="https://rb.gy/qktl9m" alt="" />
           </div>
           {/* column 3 */}
           <div className="projectPage__column">
-            <img src="https://rb.gy/3gzmdg" alt="" />
-            <img src="https://rb.gy/wce0ju" alt="" />
+            <img src={fbClone__main} alt="" />
+            {/* <img src="https://rb.gy/3gzmdg" alt="" /> */}
+
+            <img src={netflixClone__main} alt="" />
+
             <img src="https://rb.gy/tkwrzf" alt="" />
           </div>
           {/* column 4 */}

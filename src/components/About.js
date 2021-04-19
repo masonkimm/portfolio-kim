@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './About.css';
 import { FaBrain, FaUserGraduate } from 'react-icons/fa';
 import { GiTeamIdea } from 'react-icons/gi';
+import { Animated } from 'react-animated-css';
+import 'animate.css/animate.css';
 
 export default function About() {
   const [showMain, setShowMain] = useState(true);
@@ -39,7 +41,9 @@ export default function About() {
   return (
     <div className="about" id="about">
       <div className="about__leftSide">
-        <h1>About </h1>
+        <Animated animationIn="fadeIn">
+          <h1>About </h1>
+        </Animated>
         <div className="about__menu">
           <button onClick={handleShowMain}>Main</button>
           <button onClick={handleShowEducation}>Education</button>
@@ -84,35 +88,41 @@ export default function About() {
 
         {showEducation ? (
           <div className="about__education">
-            <div className="about__school">
-              <div className="about__school__leftSide">
-                <img
-                  src="https://rb.gy/yzahfj"
-                  alt="gmu logo"
-                  className="about__gmu__img"
-                />
-              </div>
-              <div className="about__school__rightSide">
-                <h2>George Mason University</h2>
+            <Animated animationIn="fadeIn">
+              <div className="about__school">
+                <div className="about__school__leftSide">
+                  <img
+                    src="https://rb.gy/yzahfj"
+                    alt="gmu logo"
+                    className="about__gmu__img"
+                  />
+                </div>
 
-                <h4>BS in Neuroscience</h4>
-                <p>Graudation date: June 2016</p>
+                <div className="about__school__rightSide">
+                  <h2>George Mason University</h2>
+
+                  <h4>BS in Neuroscience</h4>
+                  <p>Graudation date: June 2016</p>
+                </div>
               </div>
-            </div>
-            <div className="about__school">
-              <div className="about__school__leftSide">
-                <img
-                  src="https://rb.gy/8gycsg"
-                  alt="gwu logo"
-                  className="about__gwu__img"
-                />
+            </Animated>
+
+            <Animated animationIn="fadeIn">
+              <div className="about__school">
+                <div className="about__school__leftSide">
+                  <img
+                    src="https://rb.gy/8gycsg"
+                    alt="gwu logo"
+                    className="about__gwu__img"
+                  />
+                </div>
+                <div className="about__school__rightSide">
+                  <h2>George Washington University</h2>
+                  <h4>Full Stack Web Development Certification</h4>
+                  <p>Graduation Date: June 2020</p>
+                </div>
               </div>
-              <div className="about__school__rightSide">
-                <h2>George Washington University</h2>
-                <h4>Full Stack Web Development Certification</h4>
-                <p>Graduation Date: June 2020</p>
-              </div>
-            </div>
+            </Animated>
           </div>
         ) : null}
 

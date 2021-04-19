@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './components/About';
 
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import ProjectPage from './components/ProjectPage';
 import Contact from './components/Contact';
 

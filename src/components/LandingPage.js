@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
-import NavBar from './NavBar';
+// import NavBar from './NavBar';
 import SideBar from './SideBar';
 
 import { AiOutlineMail, AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
@@ -17,17 +17,29 @@ export default function LandingPage() {
 
       <div className="landingPage__icons">
         <h2>
-          <a href="https://github.com/masonkimm" target="_blank">
+          <a
+            href="https://github.com/masonkimm"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineMail />
           </a>
         </h2>
         <h2>
-          <a href="https://www.linkedin.com/in/masonkimm" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/masonkimm"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillLinkedin />
           </a>
         </h2>
         <h2>
-          <a href="https://github.com/masonkimm" target="_blank">
+          <a
+            href="https://github.com/masonkimm"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineGithub />
           </a>
         </h2>

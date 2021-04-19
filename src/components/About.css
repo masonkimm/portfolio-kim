@@ -14,7 +14,7 @@
   color: white;
   font-weight: 100;
 }
-.about__leftSide > h1 {
+.about__leftSide h1 {
   font-weight: 100;
   font-size: 6rem;
 }

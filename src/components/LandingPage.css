@@ -45,7 +45,9 @@
 .landingPage__icons a {
   color: gray;
 }
-.landingPage__icons h2:hover {
+
+.landingPage__icons h2:hover,
+.landingPage__icons a:hover {
   color: white;
   box-shadow: 0px 5px 8px -9px rgba(247, 238, 238, 0.75);
   cursor: pointer;
