@@ -1,5 +1,8 @@
+// components
+import Modal from './Modal';
 import React, { useState } from 'react';
 import './ProjectPage.css';
+// icons
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import {
@@ -13,15 +16,18 @@ import {
 } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 
+// pictures
 import weatherApp__main from './img/weatherApp__main.png';
 import todoList__main from './img/todoList__main.png';
 import snippetSaver__main from './img/snippetSaver__main.png';
 import covidTracker__main from './img/covidTracker__main.png';
 import netflixClone__main from './img/netflixClone__main.png';
 import fbClone__main from './img/fbClone__main.png';
-import Modal from './Modal';
+import Project from './Project';
 
 export default function ProjectPage() {
+  // const [retrieveInfo, setRetrieveInfo] = useState(null)
+
   const [selectedImg, setSelectedImg] = useState(null);
 
   return (
@@ -66,79 +72,34 @@ export default function ProjectPage() {
         <div className="projectPage__row">
           {/* column 1 */}
           <div className="projectPage__column">
-            {/* <img src="https://rb.gy/gyeptl" alt="" /> */}
-            <img
-              src={weatherApp__main}
-              alt=""
-              onClick={() => setSelectedImg(weatherApp__main)}
-            />
+            <Project title="Weather Checker" imgSrc="https://rb.gy/xk73kt" />
+            <Project title="Todo List" imgSrc="https://rb.gy/krhasw" />
+            <Project title="ReadMe Generator" imgSrc="https://rb.gy/pddl6x" />
 
-            <img
-              src={todoList__main}
-              alt=""
-              onClick={() => setSelectedImg(todoList__main)}
-            />
-            <img
+            {/* <img
               src="https://rb.gy/wce0ju"
               alt=""
               onClick={() => setSelectedImg('https://rb.gy/wce0ju')}
-            />
-
-            {/* <img src="https://rb.gy/tbxckj" alt="" /> */}
-            {/* <img src="https://rb.gy/iviien" alt="" /> */}
+            /> */}
           </div>
           {/* column 2 */}
           <div className="projectPage__column">
-            <img
-              src={snippetSaver__main}
-              alt=""
-              onClick={() => setSelectedImg(snippetSaver__main)}
-            />
-            <img
-              src={covidTracker__main}
-              alt=""
-              onClick={() => setSelectedImg(covidTracker__main)}
-            />
-            {/* <img src="https://rb.gy/qktl9m" alt="" /> */}
-
-            {/* <img src="https://rb.gy/zbvpzd" alt="" /> */}
-            <img
-              src="https://rb.gy/tq7rvd"
-              alt=""
-              onClick={() => setSelectedImg('https://rb.gy/tq7rvd')}
-            />
+            <Project title="Snippet Saver" imgSrc="https://rb.gy/a3odmj" />
+            <Project title="Covid-19 Tracker" imgSrc="https://rb.gy/j7ylrk" />
+            <Project title="Yelp Camp" imgSrc="https://rb.gy/tq7rvd" />
           </div>
           {/* column 3 */}
           <div className="projectPage__column">
-            <img
-              src={fbClone__main}
-              alt=""
-              onClick={() => setSelectedImg(fbClone__main)}
-            />
-            {/* <img src="https://rb.gy/3gzmdg" alt="" /> */}
+            <Project title="Facebook - Clone" imgSrc="https://rb.gy/tn8ncj" />
+            <Project title="Netflix - Clone" imgSrc="https://rb.gy/xuk9su" />
+            <Project title="Spotify - Clone" imgSrc="https://rb.gy/6efoyh" />
 
-            <img
-              src={netflixClone__main}
-              alt=""
-              onClick={() => setSelectedImg(netflixClone__main)}
-            />
-
-            <img
+            {/* <img
               src="https://rb.gy/tkwrzf"
               alt=""
               onClick={() => setSelectedImg('https://rb.gy/tkwrzf')}
-            />
+            /> */}
           </div>
-          {/* column 4 */}
-
-          {/* <div className="projectPage__column">
-            <img src="https://rb.gy/tkwrzf" alt="" />
-            <img src="https://rb.gy/qktl9m" alt="" />
-          </div> */}
-
-          {selectedImg && (
-            <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
-          )}
         </div>
       </div>
     </div>

@@ -60,9 +60,4 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  opacity: 0.65;
-}
-.projectPage__column img:hover {
-  opacity: 1.5;
-  zoom: 1.3;
 }
