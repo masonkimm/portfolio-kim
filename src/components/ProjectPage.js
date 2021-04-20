@@ -1,7 +1,9 @@
 // components
-import Modal from './Modal';
-import React, { useState } from 'react';
+// import Modal from './Modal';
+import React from 'react';
 import './ProjectPage.css';
+import Project from './Project';
+
 // icons
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
@@ -17,18 +19,17 @@ import {
 import { GrMysql } from 'react-icons/gr';
 
 // pictures
-import weatherApp__main from './img/weatherApp__main.png';
-import todoList__main from './img/todoList__main.png';
-import snippetSaver__main from './img/snippetSaver__main.png';
-import covidTracker__main from './img/covidTracker__main.png';
-import netflixClone__main from './img/netflixClone__main.png';
-import fbClone__main from './img/fbClone__main.png';
-import Project from './Project';
+// import weatherApp__main from './img/weatherApp__main.png';
+// import todoList__main from './img/todoList__main.png';
+// import snippetSaver__main from './img/snippetSaver__main.png';
+// import covidTracker__main from './img/covidTracker__main.png';
+// import netflixClone__main from './img/netflixClone__main.png';
+// import fbClone__main from './img/fbClone__main.png';
 
 export default function ProjectPage() {
   // const [retrieveInfo, setRetrieveInfo] = useState(null)
 
-  const [selectedImg, setSelectedImg] = useState(null);
+  // const [selectedImg, setSelectedImg] = useState(null);
 
   return (
     <div className="projectPage" id="">
@@ -93,12 +94,6 @@ export default function ProjectPage() {
             <Project title="Facebook - Clone" imgSrc="https://rb.gy/tn8ncj" />
             <Project title="Netflix - Clone" imgSrc="https://rb.gy/xuk9su" />
             <Project title="Spotify - Clone" imgSrc="https://rb.gy/6efoyh" />
-
-            {/* <img
-              src="https://rb.gy/tkwrzf"
-              alt=""
-              onClick={() => setSelectedImg('https://rb.gy/tkwrzf')}
-            /> */}
           </div>
         </div>
       </div>

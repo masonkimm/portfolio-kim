@@ -21,7 +21,7 @@
 }
 .projectPage__heading h1 {
   font-weight: 100;
-  font-size: 6rem;
+  font-size: 5rem;
   margin: 10px;
 }
 
@@ -32,7 +32,7 @@
   margin: 10px;
 }
 .projectPage__icons h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .projectPage__body {

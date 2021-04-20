@@ -8,12 +8,19 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  height: 8vmin;
+  height: 6vmin;
   cursor: pointer;
   /* pointer-events: cursor; */
 }
+.landingPage-logo {
+  height: 4vmin;
+  color: gray !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+  .landingPage-logo {
     animation: app-logo-spin infinite 20s linear;
   }
 }

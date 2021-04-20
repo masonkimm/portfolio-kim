@@ -56,31 +56,31 @@ export default function About() {
         {showMain ? (
           <div className="about__main">
             <div className="about__mainItem">
-              <h2>
+              <h4>
                 <FaUserGraduate size="2em" className="about__icon" />
-              </h2>
-              <h3>
+              </h4>
+              <p>
                 Recent graduate from George Washington University's Coding Boot
                 Camp.
-              </h3>
+              </p>
             </div>
 
             <div className="about__mainItem">
-              <h2>
+              <h4>
                 <FaBrain size="2em" />
-              </h2>
+              </h4>
 
-              <h3>Background in Neuroscience and Research</h3>
+              <p>Background in Neuroscience and Research</p>
             </div>
 
             <div className="about__mainItem">
-              <h2>
+              <h4>
                 <GiTeamIdea size="2em" />
-              </h2>
-              <h3>
+              </h4>
+              <p>
                 Looking forward to developing fun, exciting, & creative websites
                 and softwares.
-              </h3>
+              </p>
             </div>
           </div>
         ) : null}

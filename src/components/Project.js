@@ -3,7 +3,7 @@ import './Project.css';
 import Modal from 'react-bootstrap/Modal';
 
 export default function Project(props) {
-  const [modalShow, setModalShow] = useState(false);
+  // const [modalShow, setModalShow] = useState(false);
   const [show, setShow] = useState(false);
 
   return (

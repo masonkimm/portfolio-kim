@@ -17,24 +17,24 @@
 }
 
 .landingPage__heading h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 200;
   margin: 25px;
 }
 
 .landingPage__heading h2 {
   font-weight: 150;
-  font-size: 2rem;
-  margin-bottom: 2.5rem;
+  font-size: 1.8rem;
+  margin: 2rem 0;
+  color: white;
 }
 
-.landingPage__heading h1 span,
-.landingPage h2 {
+.landingPage__heading h1 span {
   color: rgb(131, 128, 128);
 }
 
 .landingPage__icons {
-  font-size: 1.8rem;
+  /* font-size: 1rem; */
   display: flex;
   justify-content: space-around;
   align-items: center;

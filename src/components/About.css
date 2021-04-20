@@ -16,7 +16,7 @@
 }
 .about__leftSide h1 {
   font-weight: 100;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .about__menu {
   margin-top: 20px;
@@ -45,31 +45,34 @@
   flex: 1.5;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .about__main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-bottom: 5rem;
   /* border: 1px solid black; */
+  height: 40vh;
 }
 .about__mainItem {
   display: flex;
   flex-direction: column;
   /* border: 1px solid black; */
   flex: 1;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
-.about__mainItem > h2 {
+.about__mainItem h4 {
   padding: 5px;
 }
 
-.about__mainItem > h3 {
+.about__mainItem p {
   display: flex;
   justify-content: baseline;
   text-align: center;
   font-weight: 200;
+  font-size: 1.1rem;
   margin: 20px 0;
   width: 55%;
   height: 10px;

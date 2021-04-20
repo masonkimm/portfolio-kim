@@ -38,7 +38,7 @@ export default function NavBar() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Link to="about" smooth={true}>
+              <Link to="about" smooth={true} spy={true}>
                 About
               </Link>
             </TimelineContent>
@@ -50,7 +50,7 @@ export default function NavBar() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Link to="projectPage" smooth={true}>
+              <Link to="projectPage" smooth={true} spy={true}>
                 Projects
               </Link>
             </TimelineContent>
@@ -61,7 +61,7 @@ export default function NavBar() {
               <TimelineDot />
             </TimelineSeparator>
             <TimelineContent>
-              <Link to="contact" smooth={true}>
+              <Link to="contact" smooth={true} spy={true}>
                 Contact
               </Link>
             </TimelineContent>
