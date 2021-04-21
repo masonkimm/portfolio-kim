@@ -2,7 +2,6 @@
   height: 100vh;
   width: 100%;
   display: inline-flex;
-  /* background-color: black; */
 }
 
 .about__leftSide {
@@ -15,9 +14,9 @@
   color: white;
   font-weight: 100;
 }
-.about__leftSide h1 {
+.about__leftSide > h1 {
   font-weight: 100;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .about__menu {
   margin-top: 20px;
@@ -39,6 +38,7 @@
 }
 .about__menu button:hover {
   color: white;
+
   box-shadow: 0px 5px 8px -9px rgba(245, 240, 240, 0.75);
 }
 
@@ -47,76 +47,51 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: grey;
-}
-
-.about__overView {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
-  height: 70vh;
-  margin: 20px;
-  color: white;
-  background-color: black;
-}
-.about__heading {
-  /* border: 1px solid black; */
-  margin: 20px;
-}
-.about__heading p {
-  text-align: end;
 }
 .about__main {
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-evenly;
   /* border: 1px solid black; */
-  height: 20vh;
-  border: 1px solid black;
-  margin: -40px 20px;
 }
 .about__mainItem {
   display: flex;
-  flex: 1;
   flex-direction: column;
   /* border: 1px solid black; */
-  justify-content: space-evenly;
+  flex: 1;
+  justify-content: space-around;
   align-items: center;
-  height: 18vh;
-  /* margin-top: 2rem; */
 }
-.about__mainItem p {
+.about__mainItem > h2 {
+  padding: 5px;
+}
+
+.about__mainItem > h3 {
+  display: flex;
+  justify-content: baseline;
   text-align: center;
   font-weight: 200;
-  font-size: 1.1rem;
-
-  width: 70%;
-
-  height: 20%;
+  margin: 20px 0;
+  width: 55%;
+  height: 10px;
 }
 
 .about__education {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
+  height: 90vh;
+
   width: 100%;
-  background-color: white;
 }
 
 .about__school {
   margin: 20px;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   border-radius: 17px;
   height: 50vh;
-  /* box-shadow: 0px 5px 8px -9px rgba(27, 26, 26, 0.75); */
+  box-shadow: 0px 5px 8px -9px rgba(27, 26, 26, 0.75);
   align-items: flex-start;
-  border: 1px solid brown;
 }
 
 .about__school__leftSide {
@@ -152,7 +127,6 @@
 .about__school__rightSide p {
   margin-top: 1rem;
   padding: 10px;
-  height: 20px;
 }
 
 .about__work {

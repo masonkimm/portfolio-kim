@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './About.css';
-import { FaBrain, FaUserGraduate, FaUniversity } from 'react-icons/fa';
-import { GiTeamIdea, GiComputerFan } from 'react-icons/gi';
-import { MdComputer } from 'react-icons/md';
+import { FaBrain, FaUserGraduate } from 'react-icons/fa';
+import { GiTeamIdea } from 'react-icons/gi';
 import { Animated } from 'react-animated-css';
 import 'animate.css/animate.css';
 
@@ -13,9 +12,6 @@ export default function About() {
 
   const handleShowMain = () => {
     setShowMain(!showMain);
-    if (showMain === true) {
-      setShowMain(true);
-    }
     if (showEducation === true) {
       setShowEducation(!true);
     }
@@ -25,11 +21,6 @@ export default function About() {
   };
   const handleShowEducation = () => {
     setShowEducation(!showEducation);
-
-    if (showEducation === true) {
-      setShowEducation(true);
-    }
-
     if (showMain === true) {
       setShowMain(!true);
     }
@@ -39,10 +30,6 @@ export default function About() {
   };
   const handleShowWork = () => {
     setShowWork(!showWork);
-    if (showWork === true) {
-      setShowWork(true);
-    }
-
     if (showMain === true) {
       setShowMain(!true);
     }
@@ -65,77 +52,39 @@ export default function About() {
       </div>
 
       <div className="about__rightSide">
+        {/* showMain */}
         {showMain ? (
-          <Animated animationIn="fadeIn">
-            <div className="about__overView">
-              <div className="about__heading">
-                <blockquote>
-                  <h4>
-                    "Developer with simple and minimalistic design approach."
-                  </h4>
-                  <p> - A quote by me. </p>
-                </blockquote>
-              </div>
-
-              <div className="about__main">
-                <div className="about__mainItem">
-                  <h4>
-                    <FaUserGraduate size="1.5em" className="about__icon" />
-                  </h4>
-                  <p>
-                    Graduate from George Washington University's Coding Boot
-                    Camp
-                  </p>
-                </div>
-
-                <div className="about__mainItem">
-                  <h4>
-                    <MdComputer size="1.5em" />
-                  </h4>
-
-                  <p>Detailed oriented, motivated, and passionate for coding</p>
-                </div>
-
-                <div className="about__mainItem">
-                  <h4>
-                    <GiTeamIdea size="1.5em" />
-                  </h4>
-                  <p>
-                    Looking forward to joining a greeat team to design & develop
-                    creative websites and softwares.
-                  </p>
-                </div>
-              </div>
-
-              <div className="about__main">
-                <div className="about__mainItem">
-                  <h4>
-                    <FaUniversity size="1.5em" className="about__icon" />
-                  </h4>
-                  <p>Bachelors of Science in Neuroscience</p>
-                </div>
-
-                <div className="about__mainItem">
-                  <h4>
-                    <FaBrain size="1.5em" />
-                  </h4>
-
-                  <p>
-                    Background in research, large data analysis, programming,
-                    and developing
-                  </p>
-                </div>
-
-                <div className="about__mainItem">
-                  <h4>
-                    <GiComputerFan size="1.5em" />
-                  </h4>
-                  <p>PC builder, components enthusiast, and a gamer </p>
-                </div>
-              </div>
+          <div className="about__main">
+            <div className="about__mainItem">
+              <h2>
+                <FaUserGraduate size="2em" className="about__icon" />
+              </h2>
+              <h3>
+                Recent graduate from George Washington University's Coding Boot
+                Camp.
+              </h3>
             </div>
-          </Animated>
+
+            <div className="about__mainItem">
+              <h2>
+                <FaBrain size="2em" />
+              </h2>
+
+              <h3>Background in Neuroscience and Research</h3>
+            </div>
+
+            <div className="about__mainItem">
+              <h2>
+                <GiTeamIdea size="2em" />
+              </h2>
+              <h3>
+                Looking forward to developing fun, exciting, & creative websites
+                and softwares.
+              </h3>
+            </div>
+          </div>
         ) : null}
+        {/* showEducation */}
 
         {showEducation ? (
           <div className="about__education">
@@ -157,6 +106,7 @@ export default function About() {
                 </div>
               </div>
             </Animated>
+
             <Animated animationIn="fadeIn">
               <div className="about__school">
                 <div className="about__school__leftSide">

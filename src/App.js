@@ -16,6 +16,7 @@ function App() {
       <div className="app__body">
         <LandingPage />
         <About />
+
         <ProjectPage />
         <Contact />
       </div>
