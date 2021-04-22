@@ -13,7 +13,7 @@ export default function SideBar() {
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>Eat</TimelineContent>

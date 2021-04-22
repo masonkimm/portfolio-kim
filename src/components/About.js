@@ -6,7 +6,33 @@ import { MdComputer } from 'react-icons/md';
 import { Animated } from 'react-animated-css';
 import 'animate.css/animate.css';
 
+import { makeStyles } from '@material-ui/core/styles';
+import Timeline from '@material-ui/lab/Timeline';
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+import TimelineConnector from '@material-ui/lab/TimelineConnector';
+import TimelineContent from '@material-ui/lab/TimelineContent';
+import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
+import TimelineDot from '@material-ui/lab/TimelineDot';
+
+import FastfoodIcon from '@material-ui/icons/Fastfood';
+import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+import HotelIcon from '@material-ui/icons/Hotel';
+import RepeatIcon from '@material-ui/icons/Repeat';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+
+const useStyles = makeStyles((theme) => ({
+  paper: {
+    padding: '6px 16px',
+  },
+  secondaryTail: {
+    backgroundColor: theme.palette.secondary.main,
+  },
+}));
+
 export default function About() {
+  const classes = useStyles();
   const [showMain, setShowMain] = useState(true);
   const [showEducation, setShowEducation] = useState(false);
   const [showWork, setShowWork] = useState(false);
@@ -101,7 +127,7 @@ export default function About() {
                     <GiTeamIdea size="1.5em" />
                   </h4>
                   <p>
-                    Looking forward to joining a greeat team to design & develop
+                    Looking forward to joining a great team to design & develop
                     creative websites and softwares.
                   </p>
                 </div>
@@ -138,42 +164,114 @@ export default function About() {
         ) : null}
 
         {showEducation ? (
-          <div className="about__education">
-            <Animated animationIn="fadeIn">
-              <div className="about__school">
-                <div className="about__school__leftSide">
-                  <img
-                    src="https://rb.gy/yzahfj"
-                    alt="gmu logo"
-                    className="about__gmu__img"
-                  />
-                </div>
+          <Animated animationIn="fadeIn">
+            <div className="about__education">
+              <Timeline>
+                <TimelineItem>
+                  <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                  </TimelineSeparator>
 
-                <div className="about__school__rightSide">
-                  <h2>George Mason University</h2>
+                  <TimelineContent>
+                    <Typography variant="h6" component="h1">
+                      George Mason University
+                    </Typography>
 
-                  <h4>BS in Neuroscience</h4>
-                  <p>Graudation date: June 2016</p>
-                </div>
-              </div>
-            </Animated>
-            <Animated animationIn="fadeIn">
-              <div className="about__school">
-                <div className="about__school__leftSide">
-                  <img
-                    src="https://rb.gy/8gycsg"
-                    alt="gwu logo"
-                    className="about__gwu__img"
-                  />
-                </div>
-                <div className="about__school__rightSide">
-                  <h2>George Washington University</h2>
-                  <h4>Full Stack Web Development Certification</h4>
-                  <p>Graduation Date: June 2020</p>
-                </div>
-              </div>
-            </Animated>
-          </div>
+                    <div className="about__timelineBody">
+                      <img
+                        src="https://rb.gy/yzahfj"
+                        alt="gmu logo"
+                        className="about__PicGmu"
+                      />
+                      <div className="about__timelineRight">
+                        <div className="about__top">
+                          <p>BS in Neuroscience</p>
+                        </div>
+                        <p>
+                          {' '}
+                          <i>
+                            With curiosity for how the human brain works, I
+                            majored in neuroscience. With interest in science
+                            and passion for technology, I went onto working at
+                            Howard Hughes Medical Institute - Janelia Research
+                            to experience the best of both worlds.
+                          </i>
+                        </p>
+                        <div className="about__bottom">
+                          <p>Fairfax, VA | 2016 </p>
+
+                          <p>
+                            <a
+                              href="https://science.gmu.edu/academics/departments-units/neuroscience"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              gmu.com/neuroscience
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                  <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                  </TimelineSeparator>
+
+                  <TimelineContent>
+                    <Typography variant="h6" component="h1">
+                      George Washington University
+                    </Typography>
+
+                    <div className="about__timelineBody">
+                      <img
+                        src="https://rb.gy/8gycsg"
+                        alt="gmu logo"
+                        className="about__PicGmu"
+                      />
+                      <div className="about__timelineRight">
+                        <div className="about__top">
+                          <p>Full Stack Web Development</p>
+
+                          <p>Coding Certificate</p>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Blanditiis nulla laudantium vitae totam
+                          provident quam, veritatis corporis facilis ipsa, eaque
+                          perferendis error quaerat porro quas ipsum in
+                          voluptatibus vero magnam?
+                        </p>
+                        <div className="about__bottom">
+                          <p>Washington, D.C. | 2020</p>
+
+                          <p>
+                            <a
+                              href="https://bootcamp.cps.gwu.edu/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              gwu.edu/bootcamp.com
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                  <TimelineSeparator>
+                    <TimelineDot />
+                  </TimelineSeparator>
+                  <TimelineContent>Continuing Education</TimelineContent>
+                </TimelineItem>
+              </Timeline>
+            </div>
+          </Animated>
         ) : null}
 
         {showWork ? (

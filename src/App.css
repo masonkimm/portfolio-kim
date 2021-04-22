@@ -13,7 +13,7 @@
   /* pointer-events: cursor; */
 }
 .landingPage-logo {
-  height: 4vmin;
+  height: 5vmin;
   color: gray !important;
 }
 @media (prefers-reduced-motion: no-preference) {

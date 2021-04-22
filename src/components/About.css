@@ -45,25 +45,27 @@
 .about__rightSide {
   flex: 1.5;
   display: flex;
+  flex: wrap;
+  height: 100vh;
   flex-direction: column;
-  justify-content: space-evenly;
-  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
 }
 
 .about__overView {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   border: 1px solid black;
-  height: 70vh;
-  margin: 20px;
-  color: white;
-  background-color: black;
+  height: 93vh;
+  margin: 30px;
 }
 .about__heading {
-  /* border: 1px solid black; */
+  border: 1px solid white;
   margin: 20px;
+  width: 80%;
 }
 .about__heading p {
   text-align: end;
@@ -71,126 +73,72 @@
 .about__main {
   display: flex;
   justify-content: space-between;
-
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
   height: 20vh;
-  border: 1px solid black;
-  margin: -40px 20px;
 }
 .about__mainItem {
   display: flex;
   flex: 1;
+  flex: wrap;
   flex-direction: column;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
   justify-content: space-evenly;
   align-items: center;
   height: 18vh;
-  /* margin-top: 2rem; */
 }
 .about__mainItem p {
   text-align: center;
   font-weight: 200;
   font-size: 1.1rem;
-
-  width: 70%;
-
-  height: 20%;
+  width: 90%;
+  height: 18%;
 }
 
 .about__education {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  width: 100%;
-  background-color: white;
-}
-
-.about__school {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  border-radius: 17px;
-  height: 50vh;
-  /* box-shadow: 0px 5px 8px -9px rgba(27, 26, 26, 0.75); */
+  justify-content: flex-start;
   align-items: flex-start;
-  border: 1px solid brown;
-}
-
-.about__school__leftSide {
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-.about__school__leftSide img {
-  height: 150px;
+  /* height: 70vh; */
+  overflow: hidden;
+  border: 1px solid black;
+  margin: 20px;
   object-fit: contain;
 }
-.about__gmu__img {
-  height: 170px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-right: 10px;
+.about__education ul {
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+.about__education .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+.about__bottom {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.about__school__rightSide {
-  height: 40vh;
+.about__timelineBody {
   display: flex;
-  flex: 2;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.about__school__rightSide h2 {
-  margin-bottom: 2rem;
-  padding: 10px;
-}
-.about__school__rightSide p {
-  margin-top: 1rem;
-  padding: 10px;
-  height: 20px;
-}
-
-.about__work {
-  display: flex;
-  height: 50vh;
-  overflow-y: scroll;
-  width: 90%;
-  margin: 20px;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  /* box-shadow: 0px 5px 8px -9px rgba(27, 26, 26, 0.75); */
-}
 
-.about__work__leftSide {
+  /* border: 1px solid black; */
+}
+.about__timelineRight {
+  width: 70%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-
-  height: 40vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px 0;
+  /* border: 1px solid red; */
 }
-.about__work__leftSide img {
-  height: 150px;
-  object-fit: contain;
-}
-
-.about__work__rightSide {
+.about__top {
   display: flex;
   flex-direction: column;
-  flex: 2;
-  align-items: center;
+  align-items: flex-start;
+  /* border: 1px solid black; */
 }
-
-.about__work__rightSide h2 {
-  margin-bottom: 2rem;
-  padding: 10px;
-}
-.about__work__rightSide p {
-  margin-top: 1rem;
-  padding: 10px;
+.about__education img {
+  height: 80px;
+  /* width: 120px; */
 }

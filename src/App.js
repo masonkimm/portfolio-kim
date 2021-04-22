@@ -16,12 +16,10 @@ function App() {
       <div className="app__body">
         <LandingPage />
         <About />
-
         <ProjectPage />
         <Contact />
       </div>
       <Footer />
-
       <Link to="landingPage" smooth={true}>
         <img src={logo} className="app-logo" alt="logo" />
       </Link>

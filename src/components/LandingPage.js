@@ -1,6 +1,5 @@
 import React from 'react';
 import './LandingPage.css';
-// import NavBar from './NavBar';
 import SideBar from './SideBar';
 import logo from '../logo-white.svg';
 import '../App.css';
