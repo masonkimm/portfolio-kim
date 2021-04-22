@@ -19,14 +19,16 @@
 .landingPage__heading h1 {
   font-size: 3.5rem;
   font-weight: 200;
-  margin: 25px;
 }
 
 .landingPage__heading h2 {
   font-weight: 150;
   font-size: 1.8rem;
-  margin: 2rem 0;
+
   color: white;
+}
+.landingPage__heading img {
+  height: 130px;
 }
 
 .landingPage__heading h1 span {

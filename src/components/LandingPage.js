@@ -15,7 +15,9 @@ export default function LandingPage() {
             Mason <span>SungJin </span>Kim
           </h1>
         </div>
-        <img src={logo} className="landingPage-logo" alt="logo" />
+        {/* <img src={logo} className="landingPage-logo" alt="logo" /> */}
+        <img src="https://rb.gy/xikudy" alt="" />
+
         <h2>Full-Stack Developer</h2>
       </div>
 

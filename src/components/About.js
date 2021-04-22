@@ -21,6 +21,7 @@ import HotelIcon from '@material-ui/icons/Hotel';
 import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Modal from './Modal';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -36,6 +37,7 @@ export default function About() {
   const [showMain, setShowMain] = useState(true);
   const [showEducation, setShowEducation] = useState(false);
   const [showWork, setShowWork] = useState(false);
+  const [selectedImg, setSelectedImg] = useState(null);
 
   const handleShowMain = () => {
     setShowMain(!showMain);
@@ -276,22 +278,113 @@ export default function About() {
 
         {showWork ? (
           <div className="about__work">
-            <div className="about__work__leftSide">
+            <div className="about__workTop">
               <img
                 src="https://rb.gy/yhcmzq"
                 alt="hhmi logo"
                 className="about__hhmi__img"
               />
-            </div>
-            <div className="about__work__rightSide">
-              <h2>HHMI-Janelia Research</h2>
+              <div className="about__workInfo">
+                <h3>Howard Hughes Medical Institute - Janelia</h3>
 
-              <h4>Connectome Annotator</h4>
-              <p>Work Date: 2017-2020</p>
+                <h5>Connectome Annotator</h5>
+                <p>Work Date: 2017-2020</p>
+              </div>
+            </div>
+
+            <div className="about__workBottom">
+              <div className="about__workRow">
+                <div className="about__workColumn">
+                  <img
+                    src="https://rb.gy/r4lbnb"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/r4lbnb');
+                    }}
+                  />
+                  <img
+                    src="https://rb.gy/xljlru"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/xljlru');
+                    }}
+                  />
+                  <img
+                    src="https://rb.gy/vusnau"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/vusnau');
+                    }}
+                  />
+                </div>
+                <div className="about__workColumn">
+                  <img
+                    src="https://rb.gy/oaiuoo"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/oaiuoo');
+                    }}
+                  />
+                  <img
+                    src="https://rb.gy/je8b4x"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/je8b4x');
+                    }}
+                  />
+                  <img
+                    src="https://rb.gy/e66zc5"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/e66zc5');
+                    }}
+                  />
+                </div>
+                <div className="about__workColumn">
+                  <img
+                    src="https://rb.gy/8hlzcv"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/8hlzcv');
+                    }}
+                  />
+                  <img
+                    src="https://rb.gy/pnnlh2"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg('https://rb.gy/pnnlh2');
+                    }}
+                  />
+                </div>
+                <div className="about__workColumn">
+                  <img
+                    src="https://www.hhmi.org/sites/default/files/close-up_1200.gif"
+                    alt=""
+                    onClick={() => {
+                      setSelectedImg(
+                        'https://www.hhmi.org/sites/default/files/close-up_1200.gif'
+                      );
+                    }}
+                  />
+                  <img
+                    src="https://www.hhmi.org/sites/default/files/circuit_1800_tall.gif"
+                    onClick={() => {
+                      setSelectedImg(
+                        'https://www.hhmi.org/sites/default/files/circuit_1800_tall.gif'
+                      );
+                    }}
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         ) : null}
       </div>
+
+      {selectedImg && (
+        <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
+      )}
     </div>
   );
 }

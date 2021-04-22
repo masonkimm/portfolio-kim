@@ -14,6 +14,9 @@ export default function Contact() {
           <input type="text" placeholder="E-mail" />
         </form>
       </div>
+      <div className="contact__img">
+        <img src="https://rb.gy/xikudy" alt="" />
+      </div>
     </div>
   );
 }

@@ -142,3 +142,52 @@
   height: 80px;
   /* width: 120px; */
 }
+.about__workTop {
+  /* border: 1px solid orange; */
+  display: block;
+  margin: 0 auto;
+}
+.about__workInfo {
+  margin: 40px;
+}
+.about__workTop img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+.about__workBottom {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 2rem;
+  /* border: 1px solid orange; */
+}
+.about__workRow {
+  display: flex;
+  flex: wrap;
+  padding: 0 4px;
+  width: 95%;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 1px solid orange; */
+}
+.about__workColumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  /* border: 1px solid orange; */
+}
+
+.about__workColumn Img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.about__workColumn Img:hover {
+  cursor: pointer;
+  opacity: 1;
+  zoom: 1.2;
+}

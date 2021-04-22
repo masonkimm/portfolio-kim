@@ -1,24 +1,19 @@
 import React from 'react';
 import './Modal.css';
-import Carousels from './Carousels';
+// import Carousels from './Carousels';
 
-export default function Modal({ selectedImg, setSelectedImg }) {
+export default function Modal({ selectedImg, setSelectedImg, caption }) {
   const handleCloseModal = (e) => {
-    if (e.target.classList.contains('modal')) {
+    if (e.target.classList.contains('modal__backdrop')) {
       setSelectedImg(null);
     }
   };
   return (
-    <div className="modal" onClick={handleCloseModal}>
-      <div className="modal__backdrop">
-        <div className="modal__body">
-          <h1>Project Title</h1>
-          <h2>Tech Used</h2>
-        </div>
-        <div className="modal__pic">
-          <Carousels />
-          {/* <img src={selectedImg} alt="" /> */}
-        </div>
+    <div className="modal">
+      <div className="modal__backdrop" onClick={handleCloseModal}>
+        {/* <Carousels /> */}
+        <img src={selectedImg} alt="" />
+        <h4>caption: {caption} </h4>
       </div>
     </div>
   );

@@ -7,6 +7,9 @@
   background-color: black;
   color: white;
 }
+.contact__img img {
+  height: 180px;
+}
 
 /*
 .contact__heading {
