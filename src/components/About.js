@@ -21,7 +21,7 @@ import HotelIcon from '@material-ui/icons/Hotel';
 import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import Modal from './Modal';
+import WorkModal from './WorkModal';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -383,7 +383,7 @@ export default function About() {
       </div>
 
       {selectedImg && (
-        <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
+        <WorkModal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
       )}
     </div>
   );

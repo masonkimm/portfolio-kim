@@ -3,5 +3,7 @@
   right: 40px;
   top: 40px;
   font-size: small;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
+  margin: 0;
+  padding: 0;
 }
