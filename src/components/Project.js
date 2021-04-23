@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Project.css';
 import Modal from 'react-bootstrap/Modal';
+import { AiOutlineGithub, AiOutlineLink } from 'react-icons/ai';
+// import ProjectModal from './ProjectModal';
 
 export default function Project(props) {
   // const [modalShow, setModalShow] = useState(false);
@@ -12,27 +14,55 @@ export default function Project(props) {
         <h3>{props.title}</h3>
         <img src={props.imgSrc} alt="" />
       </button>
+
+      {/* <ProjectModal
+        title={props.title}
+        imgOne={props.imgOne}
+        show={show}
+        onHide={() => setShow(false)}
+      /> */}
+
       <Modal
         show={show}
         onHide={() => setShow(false)}
-        dialogClassName="modal-90w"
+        dialogClassName="modal-w"
         aria-labelledby="example-custom-modal-styling-title"
+        centered
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-custom-modal-styling-title">
-            Custom Modal Styling
+          <Modal.Title id="example-modal-sizes-title-sm-centered">
+            {props.title}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>
-            Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-            commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-            ipsam atque a dolores quisquam quisquam adipisci possimus
-            laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-            accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-            reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-            deleniti rem!
-          </p>
+          <h5>About</h5>
+          <p>{props.about}</p>
+          <div className="project__modalImg">
+            <img src={props.imgOne} alt="" />
+          </div>
+
+          <h5>Tech Used </h5>
+          <p>{props.techUsed}</p>
+          <div className="project__link">
+            <p>
+              <span className="project__icon">
+                <AiOutlineGithub />
+              </span>
+              <a href={props.gitHubLink} target="_blank" rel="noreferrer">
+                Project Code
+              </a>
+            </p>
+            <p>
+              <span className="project__icon">
+                <AiOutlineLink />
+              </span>
+              <a href={props.link} target="_blank" rel="noreferrer">
+                Project Link
+              </a>
+            </p>
+          </div>
+
+          <p id="project__date">Date: {props.date}</p>
         </Modal.Body>
       </Modal>
     </div>

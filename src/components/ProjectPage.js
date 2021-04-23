@@ -19,12 +19,12 @@ import {
 import { GrMysql } from 'react-icons/gr';
 
 // pictures
-// import weatherApp__main from './img/weatherApp__main.png';
-// import todoList__main from './img/todoList__main.png';
-// import snippetSaver__main from './img/snippetSaver__main.png';
-// import covidTracker__main from './img/covidTracker__main.png';
-// import netflixClone__main from './img/netflixClone__main.png';
-// import fbClone__main from './img/fbClone__main.png';
+import weatherApp__main from './img/weatherApp__main.png';
+import todoList__main from './img/todoList__main.png';
+import snippetSaver__main from './img/snippetSaver__main.png';
+import covidTracker__main from './img/covidTracker__main.png';
+import netflixClone__main from './img/netflixClone__main.png';
+import fbClone__main from './img/fbClone__main.png';
 
 export default function ProjectPage() {
   // const [retrieveInfo, setRetrieveInfo] = useState(null)
@@ -73,26 +73,74 @@ export default function ProjectPage() {
         <div className="projectPage__row">
           {/* column 1 */}
           <div className="projectPage__column">
-            <Project title="Weather Checker" imgSrc="https://rb.gy/xk73kt" />
-            <Project title="Todo List" imgSrc="https://rb.gy/krhasw" />
+            <Project
+              title="Weather Checker"
+              imgSrc="https://rb.gy/xk73kt"
+              imgOne={weatherApp__main}
+              about="Weather App to check Current & Five-day forecase for anywhere in USA"
+              techUsed="HTML, CSS, Bootstrap, JavaScript, jQuery, Weather - API, AJAX, Localhost, Git-Hub"
+              date="June, 2020"
+              gitHubLink="https://github.com/masonkimm/weather-app"
+              link="https://masonkimm.github.io/weather-app/"
+            />
+            <Project
+              title="Todo List"
+              imgSrc="https://rb.gy/krhasw"
+              imgOne={todoList__main}
+              about="Simple Todo list to keep track of daily tasks"
+              techUsed="HTML, CSS, Bootstrap, JavaScript, jQuery, Localhost, Git-Hub"
+              date="July, 2020"
+              gitHubLink="https://github.com/masonkimm/todo-list"
+              link="https://masonkimm.github.io/todo-list/"
+            />
             <Project title="ReadMe Generator" imgSrc="https://rb.gy/pddl6x" />
-
-            {/* <img
-              src="https://rb.gy/wce0ju"
-              alt=""
-              onClick={() => setSelectedImg('https://rb.gy/wce0ju')}
-            /> */}
           </div>
           {/* column 2 */}
           <div className="projectPage__column">
-            <Project title="Snippet Saver" imgSrc="https://rb.gy/a3odmj" />
-            <Project title="Covid-19 Tracker" imgSrc="https://rb.gy/j7ylrk" />
+            <Project
+              title="Snippet Saver"
+              imgSrc="https://rb.gy/a3odmj"
+              imgOne={snippetSaver__main}
+              about="Digital library for storing useful code snippets"
+              techUsed="HTML, CSS, Bootstrap, JavaScript, MySQL, NPM Packages [Express, Express-Handlebars, MySQL], & Heroku"
+              date="July, 2020"
+              gitHubLink="https://github.com/masonkimm/snippet-saver"
+              link="https://sjk-snippetsaver.herokuapp.com/"
+            />
+            <Project
+              title="Covid-19 Tracker"
+              imgSrc="https://rb.gy/j7ylrk"
+              imgOne={covidTracker__main}
+              about="React based application to check worldwide, real-time COVID-19 data."
+              techUsed="React.js, JSX, Material-UI, React-ChartJs-2, Chart.js, Leaftlet, Numeral, Firebase"
+              date="August, 2020"
+              gitHubLink="https://github.com/masonkimm/covid-tracker"
+              link="https://covid-tracker-4fa84.web.app/"
+            />
             <Project title="Yelp Camp" imgSrc="https://rb.gy/tq7rvd" />
           </div>
           {/* column 3 */}
           <div className="projectPage__column">
-            <Project title="Facebook - Clone" imgSrc="https://rb.gy/tn8ncj" />
-            <Project title="Netflix - Clone" imgSrc="https://rb.gy/xuk9su" />
+            <Project
+              title="Facebook - Clone"
+              imgSrc="https://rb.gy/tn8ncj"
+              imgOne={fbClone__main}
+              about="Clone App of Netflix with dynamic banner, up-to-date lists of popular shows."
+              techUsed="React, React Hooks, React Context API, React flip move, Material UI, Flexbox, Firebase Firestore realtime Database, Firebase Hosting, Firebase Google Auth"
+              date="August, 2020"
+              gitHubLink="https://github.com/masonkimm/facebook-clone"
+              link="https://facebook-clone-35fee.web.app/"
+            />
+            <Project
+              title="Netflix - Clone"
+              imgSrc="https://rb.gy/xuk9su"
+              imgOne={netflixClone__main}
+              about="Clone App of Netflix with dynamic banner, up-to-date lists of popular shows."
+              techUsed="React, JSX, Netflix API, React Context API, GitHub, Firebase"
+              date="August, 2020"
+              gitHubLink="https://github.com/masonkimm/netflix-clone"
+              link="https://netflix-clone-2d7bd.web.app/"
+            />
             <Project title="Spotify - Clone" imgSrc="https://rb.gy/6efoyh" />
           </div>
         </div>
