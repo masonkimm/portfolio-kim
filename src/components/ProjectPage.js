@@ -25,11 +25,24 @@ import snippetSaver__main from './img/snippetSaver__main.png';
 import covidTracker__main from './img/covidTracker__main.png';
 import netflixClone__main from './img/netflixClone__main.png';
 import fbClone__main from './img/fbClone__main.png';
+import readMeGen__main from './img/readMeGen__main.png';
 
 export default function ProjectPage() {
   // const [retrieveInfo, setRetrieveInfo] = useState(null)
 
-  // const [selectedImg, setSelectedImg] = useState(null);
+  // const [selectedImg, setSelectedImg] = useState(null);\
+
+  const techUsedCopy = [{ tech: 'HTML, CSS, Bootstrap' }];
+  // const techUsedCopy = [{tech: 'HTML',
+  // 'CSS',
+  // 'Bootstrap',
+  // 'JavaScript',
+  // 'jQuery',
+  // 'Weather - API',
+  // 'AJAX',
+  // 'Localhost',
+  // 'Git-Hub',
+  // }];
 
   return (
     <div className="projectPage" id="">
@@ -78,6 +91,7 @@ export default function ProjectPage() {
               imgSrc="https://rb.gy/xk73kt"
               imgOne={weatherApp__main}
               about="Weather App to check Current & Five-day forecase for anywhere in USA"
+              techUsedCopy={techUsedCopy}
               techUsed="HTML, CSS, Bootstrap, JavaScript, jQuery, Weather - API, AJAX, Localhost, Git-Hub"
               date="June, 2020"
               gitHubLink="https://github.com/masonkimm/weather-app"
@@ -93,7 +107,15 @@ export default function ProjectPage() {
               gitHubLink="https://github.com/masonkimm/todo-list"
               link="https://masonkimm.github.io/todo-list/"
             />
-            <Project title="ReadMe Generator" imgSrc="https://rb.gy/pddl6x" />
+            <Project
+              title="ReadMe Generator"
+              imgSrc="https://rb.gy/pddl6x"
+              imgOne={readMeGen__main}
+              about="Backend tool for quickly generating a ReadMe.md file for a new project"
+              techUsed="JavaScript, NPM, & Github"
+              date="June, 2020"
+              gitHubLink="https://github.com/masonkimm/readme-gen"
+            />
           </div>
           {/* column 2 */}
           <div className="projectPage__column">

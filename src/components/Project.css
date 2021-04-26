@@ -49,9 +49,12 @@
 
 .modal-body p {
   letter-spacing: 0.7px;
-  font-weight: 200;
+  font-weight: 300;
   word-spacing: 1px;
   margin: 2px 0;
+}
+.modal-body ul {
+  margin-left: 1rem;
 }
 
 .project__icon {

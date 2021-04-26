@@ -15,13 +15,6 @@ export default function Project(props) {
         <img src={props.imgSrc} alt="" />
       </button>
 
-      {/* <ProjectModal
-        title={props.title}
-        imgOne={props.imgOne}
-        show={show}
-        onHide={() => setShow(false)}
-      /> */}
-
       <Modal
         show={show}
         onHide={() => setShow(false)}
@@ -42,7 +35,10 @@ export default function Project(props) {
           </div>
 
           <h5>Tech Used </h5>
-          <p>{props.techUsed}</p>
+          <ul>
+            <li>{props.techUsed}</li>
+          </ul>
+
           <div className="project__link">
             <p>
               <span className="project__icon">
