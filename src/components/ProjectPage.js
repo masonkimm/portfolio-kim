@@ -96,6 +96,7 @@ export default function ProjectPage() {
               date="June, 2020"
               gitHubLink="https://github.com/masonkimm/weather-app"
               link="https://masonkimm.github.io/weather-app/"
+              className="projectPage__project"
             />
             <Project
               title="Todo List"
@@ -106,15 +107,6 @@ export default function ProjectPage() {
               date="July, 2020"
               gitHubLink="https://github.com/masonkimm/todo-list"
               link="https://masonkimm.github.io/todo-list/"
-            />
-            <Project
-              title="ReadMe Generator"
-              imgSrc="https://rb.gy/pddl6x"
-              imgOne={readMeGen__main}
-              about="Backend tool for quickly generating a ReadMe.md file for a new project"
-              techUsed="JavaScript, NPM, & Github"
-              date="June, 2020"
-              gitHubLink="https://github.com/masonkimm/readme-gen"
             />
           </div>
           {/* column 2 */}
@@ -139,9 +131,22 @@ export default function ProjectPage() {
               gitHubLink="https://github.com/masonkimm/covid-tracker"
               link="https://covid-tracker-4fa84.web.app/"
             />
-            <Project title="Yelp Camp" imgSrc="https://rb.gy/tq7rvd" />
           </div>
           {/* column 3 */}
+          <div className="projectPage__column">
+            <Project
+              title="ReadMe Generator"
+              imgSrc="https://rb.gy/pddl6x"
+              imgOne={readMeGen__main}
+              about="Backend tool for quickly generating a ReadMe.md file for a new project"
+              techUsed="JavaScript, NPM, & Github"
+              date="June, 2020"
+              gitHubLink="https://github.com/masonkimm/readme-gen"
+            />
+            <Project title="Yelp Camp" imgSrc="https://rb.gy/tq7rvd" />
+          </div>
+          {/* column 4 */}
+
           <div className="projectPage__column">
             <Project
               title="Facebook - Clone"
@@ -152,6 +157,7 @@ export default function ProjectPage() {
               date="August, 2020"
               gitHubLink="https://github.com/masonkimm/facebook-clone"
               link="https://facebook-clone-35fee.web.app/"
+              className="projectPage__project"
             />
             <Project
               title="Netflix - Clone"

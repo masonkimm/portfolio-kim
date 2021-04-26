@@ -17,7 +17,7 @@ export default function NavBar() {
         <Timeline>
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot />
+              <TimelineDot color="primary" />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>

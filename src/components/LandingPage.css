@@ -37,7 +37,7 @@
 }
 
 .landingPage__icons {
-  /* font-size: 1rem; */
+  font-size: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -54,4 +54,22 @@
   color: white;
   box-shadow: 0px 5px 8px -9px rgba(247, 238, 238, 0.75);
   cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .landingPage__heading h1 {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
+  .landingPage__heading h2 {
+    font-weight: 150;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: white;
+    font-style: italic;
+  }
+  .landingPage__icons {
+    font-size: 1.2rem;
+  }
 }

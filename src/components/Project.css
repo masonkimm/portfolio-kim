@@ -87,3 +87,14 @@
   padding: 10px;
   /* margin-left: 200px; */
 }
+
+@media (max-width: 600px) {
+  .project h3 {
+    position: absolute;
+
+    /* font-size: 2.5rem; */
+    font-weight: 400;
+    color: white;
+    background-color: rgba(110, 109, 109, 0.5);
+  }
+}

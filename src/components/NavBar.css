@@ -32,6 +32,12 @@
   box-shadow: 0px 5px 8px -8px rgba(245, 240, 240, 1);
 }
 
+@media (max-width: 375px) {
+  .navBar {
+    visibility: hidden;
+  }
+}
+
 /* @media screen and (min-width: 600px) {
   .navBar__timeline {
     display: flex;

@@ -22,33 +22,21 @@ export default function LandingPage() {
       </div>
 
       <div className="landingPage__icons">
-        <h2>
-          <a
-            href="https://github.com/masonkimm"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiOutlineMail />
-          </a>
-        </h2>
-        <h2>
-          <a
-            href="https://www.linkedin.com/in/masonkimm"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillLinkedin />
-          </a>
-        </h2>
-        <h2>
-          <a
-            href="https://github.com/masonkimm"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiOutlineGithub />
-          </a>
-        </h2>
+        <a href="https://github.com/masonkimm" target="_blank" rel="noreferrer">
+          <AiOutlineMail />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/masonkimm"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiFillLinkedin />
+        </a>
+
+        <a href="https://github.com/masonkimm" target="_blank" rel="noreferrer">
+          <AiOutlineGithub />
+        </a>
       </div>
       <SideBar />
     </div>

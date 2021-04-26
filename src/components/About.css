@@ -1,7 +1,8 @@
 .about {
   height: 100vh;
   width: 100%;
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   /* background-color: black; */
 }
 
@@ -96,6 +97,7 @@
 
 .about__education {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
   /* height: 70vh; */
