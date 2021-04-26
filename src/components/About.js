@@ -280,7 +280,7 @@ export default function About() {
           <div className="about__work">
             <div className="about__workTop">
               <img
-                src="https://rb.gy/yhcmzq"
+                src="https://www.janelia.org/sites/default/files/Design/HHMI_Janelia_Logo_Color.png"
                 alt="hhmi logo"
                 className="about__hhmi__img"
               />

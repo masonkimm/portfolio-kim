@@ -11,6 +11,28 @@
   height: 180px;
 }
 
+.contactPage__icons {
+  display: flex;
+  flex-direction: column;
+
+  width: 20%;
+  margin-top: 1rem;
+  /* border: 1px solid white; */
+  padding: 1rem;
+}
+.contactPage__icons a {
+  display: flex;
+  font-size: large;
+  font-weight: 100;
+  margin: 7px 0;
+}
+.contactPage__icons a:hover {
+  color: white;
+}
+.contactPage__icons p {
+  margin: 0 2rem;
+  color: aliceblue;
+}
 /*
 .contact__heading {
   display: flex;

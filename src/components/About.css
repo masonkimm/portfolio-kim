@@ -146,6 +146,7 @@
   /* border: 1px solid orange; */
   display: block;
   margin: 0 auto;
+  margin-bottom: 1rem;
 }
 .about__workInfo {
   margin: 40px;
@@ -153,7 +154,12 @@
 .about__workTop img {
   display: block;
   margin: 0 auto;
-  height: 200px;
+  height: 170px;
+}
+.about__workInfo {
+  margin: 20px;
+  padding: 15px;
+  /* border: 1px solid blue; */
 }
 .about__workBottom {
   box-sizing: border-box;

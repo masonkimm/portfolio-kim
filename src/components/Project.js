@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './Project.css';
 import Modal from 'react-bootstrap/Modal';
+
 import { AiOutlineGithub, AiOutlineLink } from 'react-icons/ai';
-// import ProjectModal from './ProjectModal';
 
 export default function Project(props) {
-  // const [modalShow, setModalShow] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
   const [show, setShow] = useState(false);
+  const [selectedImg, setSelectedImg] = useState(null);
 
   return (
     <div className="project">
@@ -30,9 +31,20 @@ export default function Project(props) {
         <Modal.Body>
           <h5>About</h5>
           <p>{props.about}</p>
-          <div className="project__modalImg">
+          <div className="project__modalImg" onClick={() => setModalShow(true)}>
             <img src={props.imgOne} alt="" />
           </div>
+
+          <Modal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            dialogClassName="modal-x"
+            centered
+          >
+            <Modal.Body>
+              <img src={props.imgOne} alt="" />
+            </Modal.Body>
+          </Modal>
 
           <h5>Tech Used </h5>
           <ul>
@@ -48,14 +60,17 @@ export default function Project(props) {
                 Project Code
               </a>
             </p>
-            <p>
-              <span className="project__icon">
-                <AiOutlineLink />
-              </span>
-              <a href={props.link} target="_blank" rel="noreferrer">
-                Project Link
-              </a>
-            </p>
+            {props.link && (
+              <p>
+                <span className="project__icon">
+                  <AiOutlineLink />
+                </span>
+
+                <a href={props.link} target="_blank" rel="noreferrer">
+                  Project Link
+                </a>
+              </p>
+            )}
           </div>
 
           <p id="project__date">Date: {props.date}</p>

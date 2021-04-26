@@ -30,14 +30,21 @@
 
 .project__modalImg {
   height: 400px;
-
   margin: 10px 0 10px 0;
 }
+
 .modal-w img {
   height: 400px;
   width: 100%;
   object-fit: contain;
+  cursor: pointer;
 }
+.modal-x img {
+  height: 600px;
+  margin: 0 -20rem 0;
+  /* width: 100%; */
+}
+
 .modal-header {
   background-color: blanchedalmond;
 }
