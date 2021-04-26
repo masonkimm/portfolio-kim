@@ -110,12 +110,17 @@
   align-items: flex-start;
   /* border: 1px solid black; */
 }
+
 .about__education .MuiTimelineItem-missingOppositeContent:before {
   display: none;
 }
+
 .about__bottom {
   display: flex;
   justify-content: space-evenly;
+}
+.about__bottom p:first-child {
+  color: gray;
 }
 
 .about__timelineBody {
@@ -207,6 +212,7 @@
 
 @media (max-width: 600px) {
   .about {
+    margin: 0;
     height: fit-content;
     width: 100%;
     display: flex;
@@ -215,20 +221,46 @@
   }
   .about__rightSide {
     display: flex;
+    margin: -1rem;
 
-    /* height: 200vh; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
   }
 
-  .about__heading {
-    margin: -1rem;
-    padding: -1rem;
-    border: 1px solid red;
+  .about__overView {
+    display: flex;
+    justify-content: flex-start;
   }
+
+  .about__heading {
+    margin-top: 1rem;
+  }
+
   .about__main {
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+  }
+  .about__mainItem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0;
+    /* border: 1px solid black; */
+    /* object-fit: contain; */
+  }
+  .about__mainItem p {
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 20px 0;
+    /* border: 1px solid red; */
+  }
+
+  /* .about__main {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -244,7 +276,8 @@
 
     font-size: small;
     height: 100%;
-  }
+  } */
+
   .about__timelineBody img {
     margin: 20px 0;
   }
