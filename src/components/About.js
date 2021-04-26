@@ -22,6 +22,7 @@ import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import WorkModal from './WorkModal';
+import { AiOutlineLink } from 'react-icons/ai';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -107,9 +108,8 @@ export default function About() {
 
               <div className="about__main">
                 <div className="about__mainItem">
-                  <h4>
-                    <FaUserGraduate size="1.5em" className="about__icon" />
-                  </h4>
+                  <FaUserGraduate size="1.5em" className="about__icon" />
+
                   <p>
                     Graduate from George Washington University's Coding Boot
                     Camp
@@ -117,9 +117,7 @@ export default function About() {
                 </div>
 
                 <div className="about__mainItem">
-                  <h4>
-                    <MdComputer size="1.5em" />
-                  </h4>
+                  <MdComputer size="1.5em" />
 
                   <p>Detailed oriented, motivated, and passionate for coding</p>
                 </div>
@@ -209,7 +207,7 @@ export default function About() {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              gmu.com/neuroscience
+                              <AiOutlineLink /> gmu.com/neuroscience
                             </a>
                           </p>
                         </div>
@@ -241,12 +239,14 @@ export default function About() {
                           <p>Coding Certificate</p>
                         </div>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Blanditiis nulla laudantium vitae totam
-                          provident quam, veritatis corporis facilis ipsa, eaque
-                          perferendis error quaerat porro quas ipsum in
-                          voluptatibus vero magnam?
+                          <i>
+                            Intensive coding boot camp program focused on
+                            gaining technical programming and market-driven
+                            skills in HTML, CSS, Bootstrap, JavaScript, jQuery,
+                            Node.js, Express.js, React.js, MongoDB, MySQL.
+                          </i>
                         </p>
+
                         <div className="about__bottom">
                           <p>Washington, D.C. | 2020</p>
 
@@ -256,7 +256,7 @@ export default function About() {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              gwu.edu/bootcamp.com
+                              <AiOutlineLink /> gwu.edu/bootcamp.com
                             </a>
                           </p>
                         </div>
@@ -287,7 +287,10 @@ export default function About() {
               <div className="about__workInfo">
                 <h3>Howard Hughes Medical Institute - Janelia</h3>
 
-                <h5>Connectome Annotator</h5>
+                <h5>
+                  {' '}
+                  <i> Connectome Annotator </i>
+                </h5>
                 <p>Work Date: 2017-2020</p>
               </div>
             </div>
