@@ -28,22 +28,6 @@ import fbClone__main from './img/fbClone__main.png';
 import readMeGen__main from './img/readMeGen__main.png';
 
 export default function ProjectPage() {
-  // const [retrieveInfo, setRetrieveInfo] = useState(null)
-
-  // const [selectedImg, setSelectedImg] = useState(null);\
-
-  const techUsedCopy = [{ tech: 'HTML, CSS, Bootstrap' }];
-  // const techUsedCopy = [{tech: 'HTML',
-  // 'CSS',
-  // 'Bootstrap',
-  // 'JavaScript',
-  // 'jQuery',
-  // 'Weather - API',
-  // 'AJAX',
-  // 'Localhost',
-  // 'Git-Hub',
-  // }];
-
   return (
     <div className="projectPage" id="">
       <div className="projectPage__heading">
@@ -91,7 +75,6 @@ export default function ProjectPage() {
               imgSrc="https://rb.gy/xk73kt"
               imgOne={weatherApp__main}
               about="Weather App to check Current & Five-day forecase for anywhere in USA"
-              techUsedCopy={techUsedCopy}
               techUsed="HTML, CSS, Bootstrap, JavaScript, jQuery, Weather - API, AJAX, Localhost, Git-Hub"
               date="June, 2020"
               gitHubLink="https://github.com/masonkimm/weather-app"

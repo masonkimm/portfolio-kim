@@ -219,6 +219,11 @@
     flex-wrap: wrap;
     /* background-color: black; */
   }
+  .about h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    margin: 10px 0 -20px 0;
+  }
   .about__rightSide {
     display: flex;
     margin: -1rem;
