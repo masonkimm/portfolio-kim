@@ -18,7 +18,7 @@ import {
 } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 
-// pictures
+// images
 import weatherApp__main from './img/weatherApp__main.png';
 import todoList__main from './img/todoList__main.png';
 import snippetSaver__main from './img/snippetSaver__main.png';
@@ -26,6 +26,7 @@ import covidTracker__main from './img/covidTracker__main.png';
 import netflixClone__main from './img/netflixClone__main.png';
 import fbClone__main from './img/fbClone__main.png';
 import readMeGen__main from './img/readMeGen__main.png';
+import golfYelp__modal from './img/golfYelp__modal.jpeg';
 
 export default function ProjectPage() {
   return (
@@ -126,7 +127,13 @@ export default function ProjectPage() {
               date="June, 2020"
               gitHubLink="https://github.com/masonkimm/readme-gen"
             />
-            <Project title="Yelp Camp" imgSrc="https://rb.gy/tq7rvd" />
+            <Project
+              title="Golf Yelp - COMING SOON!"
+              imgSrc="https://images.unsplash.com/photo-1514480573427-1f96cbed6a27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1946&q=80"
+              imgOne={golfYelp__modal}
+              about="Yelp for Golf! Post, read, comment, and rate your favorite golf courses!"
+              techUsed="coming soon"
+            />
           </div>
           {/* column 4 */}
 
