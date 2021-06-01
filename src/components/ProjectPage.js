@@ -128,11 +128,14 @@ export default function ProjectPage() {
               gitHubLink="https://github.com/masonkimm/readme-gen"
             />
             <Project
-              title="Golf Yelp - COMING SOON!"
+              title="Golf Yelp"
               imgSrc="https://images.unsplash.com/photo-1514480573427-1f96cbed6a27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1946&q=80"
               imgOne={golfYelp__modal}
-              about="Yelp for Golf! Post, read, comment, and rate your favorite golf courses!"
-              techUsed="coming soon"
+              about="Yelp for Golf! Post, review, and rate your favorite golf courses!"
+              techUsed="Tech: HTML, CSS, JavaScript, Bootstrap, Express, EJS, Mongo, Mongoose, Map Box, Cloudinary, Passport & etc."
+              date="June, 2021"
+              gitHubLink="https://github.com/masonkimm/golf-yelp"
+              link="https://golf-yelp.herokuapp.com/"
             />
           </div>
           {/* column 4 */}
