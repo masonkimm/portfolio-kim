@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="contactPage__icons">
         <a href="https://github.com/masonkimm" target="_blank" rel="noreferrer">
           <AiOutlineMail fontSize="1.5rem" />
-          <p> masonkimm20@gmail.com</p>
+          <p> masonkimsj@gmail.com</p>
         </a>
 
         <a
