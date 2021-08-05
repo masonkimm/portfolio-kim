@@ -27,6 +27,8 @@ import netflixClone__main from './img/netflixClone__main.png';
 import fbClone__main from './img/fbClone__main.png';
 import readMeGen__main from './img/readMeGen__main.png';
 import golfYelp__modal from './img/golfYelp__modal.jpeg';
+import employeeDirectory__main from './img/employeeDirectory__main.png';
+import superMario__main from './img/superMario__main.png';
 
 export default function ProjectPage() {
   return (
@@ -92,18 +94,28 @@ export default function ProjectPage() {
               gitHubLink="https://github.com/masonkimm/todo-list"
               link="https://masonkimm.github.io/todo-list/"
             />
+            <Project
+              title="Employee-Directory"
+              imgSrc="https://tinyurl.com/wh4f49hc"
+              imgOne={employeeDirectory__main}
+              about="Directory of Employees."
+              techUsed="React, JSX, Github"
+              date="July, 2021"
+              gitHubLink="https://github.com/masonkimm/employee-directory"
+              link="https://masonkimm.github.io/employee-directory/"
+            />
           </div>
           {/* column 2 */}
           <div className="projectPage__column">
             <Project
-              title="Snippet Saver"
-              imgSrc="https://rb.gy/a3odmj"
-              imgOne={snippetSaver__main}
-              about="Digital library for storing useful code snippets"
-              techUsed="HTML, CSS, Bootstrap, JavaScript, MySQL, NPM Packages [Express, Express-Handlebars, MySQL], & Heroku"
-              date="July, 2020"
+              title="Super Mario"
+              imgSrc="https://tinyurl.com/t8hm3yvf"
+              imgOne={superMario__main}
+              about="Classic Super Mario game."
+              techUsed="HTML, CSS, JavaScript, Kaboom.js"
+              date="August, 2021"
               gitHubLink="https://github.com/masonkimm/snippet-saver"
-              link="https://sjk-snippetsaver.herokuapp.com/"
+              link="https://masonkimm.github.io/super-mario/"
             />
             <Project
               title="Covid-19 Tracker"
@@ -114,6 +126,16 @@ export default function ProjectPage() {
               date="August, 2020"
               gitHubLink="https://github.com/masonkimm/covid-tracker"
               link="https://covid-tracker-4fa84.web.app/"
+            />
+            <Project
+              title="Snippet Saver"
+              imgSrc="https://rb.gy/a3odmj"
+              imgOne={snippetSaver__main}
+              about="Digital library for storing useful code snippets"
+              techUsed="HTML, CSS, Bootstrap, JavaScript, MySQL, NPM Packages [Express, Express-Handlebars, MySQL], & Heroku"
+              date="July, 2020"
+              gitHubLink="https://github.com/masonkimm/snippet-saver"
+              link="https://sjk-snippetsaver.herokuapp.com/"
             />
           </div>
           {/* column 3 */}

@@ -40,44 +40,25 @@ export default function About() {
   const [showWork, setShowWork] = useState(false);
   const [selectedImg, setSelectedImg] = useState(null);
 
-  const handleShowMain = () => {
-    setShowMain(!showMain);
-    if (showMain === true) {
-      setShowMain(true);
-    }
-    if (showEducation === true) {
-      setShowEducation(!true);
-    }
-    if (showWork === true) {
-      setShowWork(!true);
-    }
+  const handleShowMain = (e) => {
+    e.preventDefault();
+    setShowMain(true);
+    setShowEducation(false);
+    setShowWork(false);
   };
-  const handleShowEducation = () => {
-    setShowEducation(!showEducation);
 
-    if (showEducation === true) {
-      setShowEducation(true);
-    }
-
-    if (showMain === true) {
-      setShowMain(!true);
-    }
-    if (showWork === true) {
-      setShowWork(!true);
-    }
+  const handleShowEducation = (e) => {
+    e.preventDefault();
+    setShowMain(false);
+    setShowEducation(true);
+    setShowWork(false);
   };
-  const handleShowWork = () => {
-    setShowWork(!showWork);
-    if (showWork === true) {
-      setShowWork(true);
-    }
 
-    if (showMain === true) {
-      setShowMain(!true);
-    }
-    if (showEducation === true) {
-      setShowEducation(!true);
-    }
+  const handleShowWork = (e) => {
+    e.preventDefault();
+    setShowMain(false);
+    setShowEducation(false);
+    setShowWork(true);
   };
 
   return (
