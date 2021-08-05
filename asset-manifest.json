@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-kim/static/css/main.2732d5be.chunk.css",
-    "main.js": "/portfolio-kim/static/js/main.c0f1e1bf.chunk.js",
-    "main.js.map": "/portfolio-kim/static/js/main.c0f1e1bf.chunk.js.map",
+    "main.js": "/portfolio-kim/static/js/main.9fcc9143.chunk.js",
+    "main.js.map": "/portfolio-kim/static/js/main.9fcc9143.chunk.js.map",
     "runtime-main.js": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js",
     "runtime-main.js.map": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js.map",
     "static/css/2.a1596f27.chunk.css": "/portfolio-kim/static/css/2.a1596f27.chunk.css",
@@ -13,6 +13,7 @@
     "static/css/main.2732d5be.chunk.css.map": "/portfolio-kim/static/css/main.2732d5be.chunk.css.map",
     "static/js/2.32bd2cfa.chunk.js.LICENSE.txt": "/portfolio-kim/static/js/2.32bd2cfa.chunk.js.LICENSE.txt",
     "static/media/covidTracker__main.9849c291.png": "/portfolio-kim/static/media/covidTracker__main.9849c291.png",
+    "static/media/employeeDirectory__main.0352749b.png": "/portfolio-kim/static/media/employeeDirectory__main.0352749b.png",
     "static/media/fbClone__main.94a7e167.png": "/portfolio-kim/static/media/fbClone__main.94a7e167.png",
     "static/media/golfYelp__modal.e36afe0b.jpeg": "/portfolio-kim/static/media/golfYelp__modal.e36afe0b.jpeg",
     "static/media/logo-white.b72b0670.svg": "/portfolio-kim/static/media/logo-white.b72b0670.svg",
@@ -20,6 +21,7 @@
     "static/media/netflixClone__main.d3bf3e4d.png": "/portfolio-kim/static/media/netflixClone__main.d3bf3e4d.png",
     "static/media/readMeGen__main.6e6e7823.png": "/portfolio-kim/static/media/readMeGen__main.6e6e7823.png",
     "static/media/snippetSaver__main.d40e101b.png": "/portfolio-kim/static/media/snippetSaver__main.d40e101b.png",
+    "static/media/superMario__main.5ff32ee5.png": "/portfolio-kim/static/media/superMario__main.5ff32ee5.png",
     "static/media/todoList__main.ea2be219.png": "/portfolio-kim/static/media/todoList__main.ea2be219.png",
     "static/media/weatherApp__main.787e2903.png": "/portfolio-kim/static/media/weatherApp__main.787e2903.png"
   },
@@ -28,6 +30,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.32bd2cfa.chunk.js",
     "static/css/main.2732d5be.chunk.css",
-    "static/js/main.c0f1e1bf.chunk.js"
+    "static/js/main.9fcc9143.chunk.js"
   ]
 }
