@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-kim/static/css/main.2732d5be.chunk.css",
-    "main.js": "/portfolio-kim/static/js/main.9fcc9143.chunk.js",
-    "main.js.map": "/portfolio-kim/static/js/main.9fcc9143.chunk.js.map",
+    "main.js": "/portfolio-kim/static/js/main.d7ce9f86.chunk.js",
+    "main.js.map": "/portfolio-kim/static/js/main.d7ce9f86.chunk.js.map",
     "runtime-main.js": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js",
     "runtime-main.js.map": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js.map",
     "static/css/2.a1596f27.chunk.css": "/portfolio-kim/static/css/2.a1596f27.chunk.css",
@@ -12,9 +12,8 @@
     "static/css/2.a1596f27.chunk.css.map": "/portfolio-kim/static/css/2.a1596f27.chunk.css.map",
     "static/css/main.2732d5be.chunk.css.map": "/portfolio-kim/static/css/main.2732d5be.chunk.css.map",
     "static/js/2.32bd2cfa.chunk.js.LICENSE.txt": "/portfolio-kim/static/js/2.32bd2cfa.chunk.js.LICENSE.txt",
-    "static/media/covidTracker__main.9849c291.png": "/portfolio-kim/static/media/covidTracker__main.9849c291.png",
+    "static/media/covid-19-tracker__main.0a1e68ba.png": "/portfolio-kim/static/media/covid-19-tracker__main.0a1e68ba.png",
     "static/media/employeeDirectory__main.0352749b.png": "/portfolio-kim/static/media/employeeDirectory__main.0352749b.png",
-    "static/media/fbClone__main.94a7e167.png": "/portfolio-kim/static/media/fbClone__main.94a7e167.png",
     "static/media/golfYelp__modal.e36afe0b.jpeg": "/portfolio-kim/static/media/golfYelp__modal.e36afe0b.jpeg",
     "static/media/logo-white.b72b0670.svg": "/portfolio-kim/static/media/logo-white.b72b0670.svg",
     "static/media/logo.6ce24c58.svg": "/portfolio-kim/static/media/logo.6ce24c58.svg",
@@ -30,6 +29,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.32bd2cfa.chunk.js",
     "static/css/main.2732d5be.chunk.css",
-    "static/js/main.9fcc9143.chunk.js"
+    "static/js/main.d7ce9f86.chunk.js"
   ]
 }
