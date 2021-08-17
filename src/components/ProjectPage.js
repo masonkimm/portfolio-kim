@@ -22,9 +22,9 @@ import { GrMysql } from 'react-icons/gr';
 import weatherApp__main from './img/weatherApp__main.png';
 import todoList__main from './img/todoList__main.png';
 import snippetSaver__main from './img/snippetSaver__main.png';
-import covidTracker__main from './img/covidTracker__main.png';
+import covidTracker__main from './img/covid-19-tracker__main.png';
 import netflixClone__main from './img/netflixClone__main.png';
-import fbClone__main from './img/fbClone__main.png';
+// import fbClone__main from './img/fbClone__main.png';
 import readMeGen__main from './img/readMeGen__main.png';
 import golfYelp__modal from './img/golfYelp__modal.jpeg';
 import employeeDirectory__main from './img/employeeDirectory__main.png';
@@ -122,10 +122,10 @@ export default function ProjectPage() {
               imgSrc="https://rb.gy/j7ylrk"
               imgOne={covidTracker__main}
               about="React based application to check worldwide, real-time COVID-19 data."
-              techUsed="React.js, JSX, Material-UI, React-ChartJs-2, Chart.js, Leaftlet, Numeral, Firebase"
+              techUsed="React.js, JSX, Material-UI, Numeral, Firebase"
               date="August, 2020"
-              gitHubLink="https://github.com/masonkimm/covid-tracker"
-              link="https://covid-tracker-4fa84.web.app/"
+              gitHubLink="https://github.com/masonkimm/covid-19-tracker"
+              link="https://covid-19-tracker-94838.web.app/"
             />
             <Project
               title="Snippet Saver"
@@ -163,7 +163,7 @@ export default function ProjectPage() {
           {/* column 4 */}
 
           <div className="projectPage__column">
-            <Project
+            {/* <Project
               title="Facebook - Clone"
               imgSrc="https://rb.gy/tn8ncj"
               imgOne={fbClone__main}
@@ -173,7 +173,7 @@ export default function ProjectPage() {
               gitHubLink="https://github.com/masonkimm/facebook-clone"
               link="https://facebook-clone-35fee.web.app/"
               className="projectPage__project"
-            />
+            /> */}
             <Project
               title="Netflix - Clone"
               imgSrc="https://rb.gy/xuk9su"
