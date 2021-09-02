@@ -29,6 +29,7 @@ import readMeGen__main from './img/readMeGen__main.png';
 import golfYelp__modal from './img/golfYelp__modal.jpeg';
 import employeeDirectory__main from './img/employeeDirectory__main.png';
 import superMario__main from './img/superMario__main.png';
+import triviaApp__main from './img/triviaApp__main.png';
 
 export default function ProjectPage() {
   return (
@@ -141,6 +142,17 @@ export default function ProjectPage() {
           {/* column 3 */}
           <div className="projectPage__column">
             <Project
+              title="Trivia-App"
+              imgSrc="https://tinyurl.com/27ya36da"
+              imgOne={triviaApp__main}
+              about="Trivia App with random questions to freshen up your game skills."
+              techUsed="React.js, TypeScript, Github Pages"
+              date="August, 2021"
+              gitHubLink="https://github.com/masonkimm/trivia-app"
+              link="https://masonkimm.github.io/trivia-app"
+            />
+
+            <Project
               title="ReadMe Generator"
               imgSrc="https://rb.gy/pddl6x"
               imgOne={readMeGen__main}
@@ -149,6 +161,7 @@ export default function ProjectPage() {
               date="June, 2020"
               gitHubLink="https://github.com/masonkimm/readme-gen"
             />
+
             <Project
               title="Golf Yelp"
               imgSrc="https://images.unsplash.com/photo-1514480573427-1f96cbed6a27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1946&q=80"
