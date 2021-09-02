@@ -7,7 +7,7 @@ import { AiOutlineGithub, AiOutlineLink } from 'react-icons/ai';
 export default function Project(props) {
   const [modalShow, setModalShow] = useState(false);
   const [show, setShow] = useState(false);
-  const [selectedImg, setSelectedImg] = useState(null);
+  // const [selectedImg, setSelectedImg] = useState(null);
 
   return (
     <div className="project">

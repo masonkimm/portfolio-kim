@@ -1,7 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
 import SideBar from './SideBar';
-import logo from '../logo-white.svg';
+// import logo from '../logo-white.svg';
 import '../App.css';
 
 import { AiOutlineMail, AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
