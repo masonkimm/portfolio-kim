@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-kim/static/css/main.2732d5be.chunk.css",
-    "main.js": "/portfolio-kim/static/js/main.d7ce9f86.chunk.js",
-    "main.js.map": "/portfolio-kim/static/js/main.d7ce9f86.chunk.js.map",
+    "main.js": "/portfolio-kim/static/js/main.879d2eeb.chunk.js",
+    "main.js.map": "/portfolio-kim/static/js/main.879d2eeb.chunk.js.map",
     "runtime-main.js": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js",
     "runtime-main.js.map": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js.map",
     "static/css/2.a1596f27.chunk.css": "/portfolio-kim/static/css/2.a1596f27.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/snippetSaver__main.d40e101b.png": "/portfolio-kim/static/media/snippetSaver__main.d40e101b.png",
     "static/media/superMario__main.5ff32ee5.png": "/portfolio-kim/static/media/superMario__main.5ff32ee5.png",
     "static/media/todoList__main.ea2be219.png": "/portfolio-kim/static/media/todoList__main.ea2be219.png",
+    "static/media/triviaApp__main.a683ed43.png": "/portfolio-kim/static/media/triviaApp__main.a683ed43.png",
     "static/media/weatherApp__main.787e2903.png": "/portfolio-kim/static/media/weatherApp__main.787e2903.png"
   },
   "entrypoints": [
@@ -29,6 +30,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.32bd2cfa.chunk.js",
     "static/css/main.2732d5be.chunk.css",
-    "static/js/main.d7ce9f86.chunk.js"
+    "static/js/main.879d2eeb.chunk.js"
   ]
 }
