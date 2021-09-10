@@ -6,7 +6,7 @@ import { MdComputer } from 'react-icons/md';
 import { Animated } from 'react-animated-css';
 import 'animate.css/animate.css';
 
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
@@ -18,17 +18,17 @@ import Typography from '@material-ui/core/Typography';
 import WorkModal from './WorkModal';
 import { AiOutlineLink } from 'react-icons/ai';
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    padding: '6px 16px',
-  },
-  secondaryTail: {
-    backgroundColor: theme.palette.secondary.main,
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   paper: {
+//     padding: '6px 16px',
+//   },
+//   secondaryTail: {
+//     backgroundColor: theme.palette.secondary.main,
+//   },
+// }));
 
 export default function About() {
-  const classes = useStyles();
+  // const classes = useStyles();
   const [showMain, setShowMain] = useState(true);
   const [showEducation, setShowEducation] = useState(false);
   const [showWork, setShowWork] = useState(false);

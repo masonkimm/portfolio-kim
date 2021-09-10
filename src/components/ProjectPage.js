@@ -30,6 +30,7 @@ import golfYelp__modal from './img/golfYelp__modal.jpeg';
 import employeeDirectory__main from './img/employeeDirectory__main.png';
 import superMario__main from './img/superMario__main.png';
 import triviaApp__main from './img/triviaApp__main.png';
+import blogApp__main from './img/blogApp__main.png';
 
 export default function ProjectPage() {
   return (
@@ -187,6 +188,16 @@ export default function ProjectPage() {
               link="https://facebook-clone-35fee.web.app/"
               className="projectPage__project"
             /> */}
+            <Project
+              title="Blog - App"
+              imgSrc="https://bit.ly/3l61mIY"
+              imgOne={blogApp__main}
+              about="Blog to post and share the lastest news."
+              techUsed="JavaScript, Express, EJS, MongoDB, Mongoose, Heroku"
+              date="September, 2021"
+              gitHubLink="https://github.com/masonkimm/blog-app"
+              link="https://blog-app-msjk.herokuapp.com/"
+            />
             <Project
               title="Netflix - Clone"
               imgSrc="https://rb.gy/xuk9su"
