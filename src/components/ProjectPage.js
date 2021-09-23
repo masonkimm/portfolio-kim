@@ -24,13 +24,13 @@ import todoList__main from './img/todoList__main.png';
 import snippetSaver__main from './img/snippetSaver__main.png';
 import covidTracker__main from './img/covid-19-tracker__main.png';
 import netflixClone__main from './img/netflixClone__main.png';
-// import fbClone__main from './img/fbClone__main.png';
 import readMeGen__main from './img/readMeGen__main.png';
 import golfYelp__modal from './img/golfYelp__modal.jpeg';
 import employeeDirectory__main from './img/employeeDirectory__main.png';
 import superMario__main from './img/superMario__main.png';
 import triviaApp__main from './img/triviaApp__main.png';
 import blogApp__main from './img/blogApp__main.png';
+// import fbClone__main from './img/fbClone__main.png';
 
 export default function ProjectPage() {
   return (
