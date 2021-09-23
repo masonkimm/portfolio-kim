@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-kim/static/css/main.2732d5be.chunk.css",
-    "main.js": "/portfolio-kim/static/js/main.7a86e362.chunk.js",
-    "main.js.map": "/portfolio-kim/static/js/main.7a86e362.chunk.js.map",
+    "main.css": "/portfolio-kim/static/css/main.9da30272.chunk.css",
+    "main.js": "/portfolio-kim/static/js/main.85f307af.chunk.js",
+    "main.js.map": "/portfolio-kim/static/js/main.85f307af.chunk.js.map",
     "runtime-main.js": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js",
     "runtime-main.js.map": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js.map",
     "static/css/2.a1596f27.chunk.css": "/portfolio-kim/static/css/2.a1596f27.chunk.css",
-    "static/js/2.5cdf3f24.chunk.js": "/portfolio-kim/static/js/2.5cdf3f24.chunk.js",
-    "static/js/2.5cdf3f24.chunk.js.map": "/portfolio-kim/static/js/2.5cdf3f24.chunk.js.map",
+    "static/js/2.5a0669d6.chunk.js": "/portfolio-kim/static/js/2.5a0669d6.chunk.js",
+    "static/js/2.5a0669d6.chunk.js.map": "/portfolio-kim/static/js/2.5a0669d6.chunk.js.map",
     "index.html": "/portfolio-kim/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/portfolio-kim/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.2732d5be.chunk.css.map": "/portfolio-kim/static/css/main.2732d5be.chunk.css.map",
-    "static/js/2.5cdf3f24.chunk.js.LICENSE.txt": "/portfolio-kim/static/js/2.5cdf3f24.chunk.js.LICENSE.txt",
-    "static/media/blogApp__main.bf743b31.png": "/portfolio-kim/static/media/blogApp__main.bf743b31.png",
+    "static/css/main.9da30272.chunk.css.map": "/portfolio-kim/static/css/main.9da30272.chunk.css.map",
+    "static/js/2.5a0669d6.chunk.js.LICENSE.txt": "/portfolio-kim/static/js/2.5a0669d6.chunk.js.LICENSE.txt",
+    "static/media/blogApp__main.dcc4f297.png": "/portfolio-kim/static/media/blogApp__main.dcc4f297.png",
     "static/media/covid-19-tracker__main.0a1e68ba.png": "/portfolio-kim/static/media/covid-19-tracker__main.0a1e68ba.png",
-    "static/media/employeeDirectory__main.0352749b.png": "/portfolio-kim/static/media/employeeDirectory__main.0352749b.png",
+    "static/media/employeeDirectory__main.512284f4.png": "/portfolio-kim/static/media/employeeDirectory__main.512284f4.png",
     "static/media/golfYelp__modal.e36afe0b.jpeg": "/portfolio-kim/static/media/golfYelp__modal.e36afe0b.jpeg",
     "static/media/logo.6ce24c58.svg": "/portfolio-kim/static/media/logo.6ce24c58.svg",
     "static/media/netflixClone__main.d3bf3e4d.png": "/portfolio-kim/static/media/netflixClone__main.d3bf3e4d.png",
@@ -23,13 +23,13 @@
     "static/media/superMario__main.5ff32ee5.png": "/portfolio-kim/static/media/superMario__main.5ff32ee5.png",
     "static/media/todoList__main.ea2be219.png": "/portfolio-kim/static/media/todoList__main.ea2be219.png",
     "static/media/triviaApp__main.a683ed43.png": "/portfolio-kim/static/media/triviaApp__main.a683ed43.png",
-    "static/media/weatherApp__main.787e2903.png": "/portfolio-kim/static/media/weatherApp__main.787e2903.png"
+    "static/media/weatherApp__main.a9d1b788.png": "/portfolio-kim/static/media/weatherApp__main.a9d1b788.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2cef3ed8.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.5cdf3f24.chunk.js",
-    "static/css/main.2732d5be.chunk.css",
-    "static/js/main.7a86e362.chunk.js"
+    "static/js/2.5a0669d6.chunk.js",
+    "static/css/main.9da30272.chunk.css",
+    "static/js/main.85f307af.chunk.js"
   ]
 }
