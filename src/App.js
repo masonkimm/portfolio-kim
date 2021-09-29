@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import LandingPage from './components/LandingPage';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import About from './components/About';
-
+import NavBar from './components/NavBar/NavBar';
+import LandingPage from './components/LandingPage/LandingPage';
+import About from './components/About/About';
+import ProjectPage from './components/ProjectPage/ProjectPage';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import { Link } from 'react-scroll';
-import ProjectPage from './components/ProjectPage';
-import Contact from './components/Contact';
 
 function App() {
   return (

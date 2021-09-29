@@ -1,0 +1,98 @@
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+.projectPage__heading {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 20vh;
+
+  margin-bottom: 2rem;
+}
+.projectPage__heading h1 {
+  font-weight: 100;
+  font-size: 5rem;
+  margin: 1rem;
+}
+
+.projectPage__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 10px;
+}
+.icon {
+  font-size: 1.5rem;
+}
+
+.projectPage__body {
+  box-sizing: border-box;
+  margin: 2rem;
+}
+
+.projectPage__row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+.projectPage__column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.projectPage__column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* .projectPage__project {
+  margin-top: 8px;
+  vertical-align: middle;
+} */
+
+@media (max-width: 800px) {
+  .projectPage__column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .projectPage__column {
+    flex: 100%;
+    width: 100%;
+    /* background-color: rgb(107, 70, 70); */
+  }
+  .projectPage__heading h1 {
+    font-weight: 100;
+    font-size: 4rem;
+  }
+
+  .projectPage__icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .projectPage__icons h2 {
+    font-size: 1rem;
+  }
+  .projectPage__body {
+    box-sizing: border-box;
+    /* display: flex;
+    justify-content: center; */
+    /* flex: 2; */
+    margin: 0;
+  }
+}
