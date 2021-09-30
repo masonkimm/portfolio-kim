@@ -12,7 +12,7 @@ export default function Project(props) {
   return (
     <div className="project">
       <button onClick={() => setShow(true)}>
-        <h3>{props.title}</h3>
+        <h3 id="project__title">{props.title}</h3>
         <img src={props.imgSrc} alt="" />
       </button>
 
