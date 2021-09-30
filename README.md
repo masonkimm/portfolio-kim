@@ -38,12 +38,6 @@ Personal Portfolio website built with create-react-app.
 - [Credits](#Credits)
 - [License](#License)
 
-## Business_Context
-
-```
-Front-End focused facebook clone build with utilization of firebase firestore databse for back-end service.
-```
-
 ## Code Utilization:
 
 - Language Count: ![](https://img.shields.io/github/languages/count/masonkimm/portfolio-kim)
