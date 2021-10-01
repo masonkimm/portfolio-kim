@@ -30,6 +30,7 @@ import golfYelp from '../../img/golfYelp.png';
 import blogApp from '../../img/blogApp.png';
 import facebookClone from '../../img/facebookClone.png';
 import netflixClone from '../../img/netflixClone.png';
+import amazonClone from '../../img/amazonClone.png';
 
 export default function ProjectPage() {
   return (
@@ -169,7 +170,7 @@ export default function ProjectPage() {
               title="Facebook - Clone"
               imgSrc="https://rb.gy/tn8ncj"
               imgOne={facebookClone}
-              about="Clone App of Netflix with dynamic banner, up-to-date lists of popular shows."
+              about="Clone App of Facebook focused on front-end development."
               techUsed="React, Material UI, Random User API, Unsplash API "
               date="September, 2021"
               gitHubLink="https://github.com/masonkimm/facebook-clone"
@@ -185,6 +186,16 @@ export default function ProjectPage() {
               date="August, 2020"
               gitHubLink="https://github.com/masonkimm/netflix-clone"
               link="https://netflix-clone-2d7bd.web.app/"
+            />
+            <Project
+              title="Amazon - Clone"
+              imgSrc="https://bit.ly/2YdH6h6"
+              imgOne={amazonClone}
+              about="Clone App of Amazon with cart functionality."
+              techUsed="React, JSX, React Context API, GitHub, Github Pages"
+              date="September, 2021"
+              gitHubLink="https://github.com/masonkimm/amazon"
+              link="https://masonkimm.github.io/amazon-clone/"
             />
             {/* <Project title="Spotify - Clone" imgSrc="https://rb.gy/6efoyh" /> */}
           </div>
