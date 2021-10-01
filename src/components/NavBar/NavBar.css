@@ -7,13 +7,6 @@
   height: 100vh;
   justify-content: space-around;
 }
-/* .navBar__timeline {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 80vh;
-  width: 10%;
-} */
 .navBar__timeline .MuiTimeline-root {
   width: 20%;
   flex-grow: 0;
@@ -37,22 +30,3 @@
     visibility: hidden;
   }
 }
-
-/* @media screen and (min-width: 600px) {
-  .navBar__timeline {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid white;
-    height: 80vh;
-    width: 10%;
-  }
-  .navBar__timeline .MuiTimeline-root {
-    display: flex;
-
-    width: 20%;
-    flex-grow: 0;
-    border: 1px solid white;
-    align-items: flex-start;
-  }
-} */

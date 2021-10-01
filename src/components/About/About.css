@@ -3,7 +3,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  /* background-color: black; */
 }
 
 .about__leftSide {
@@ -47,7 +46,6 @@
   flex: 1.5;
   display: flex;
   flex-wrap: wrap;
-  /* height: 100vh; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -59,7 +57,6 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  /* border: 1px solid black; */
   height: 83vh;
   margin: 30px;
 }
@@ -74,7 +71,6 @@
 .about__main {
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid white; */
   height: 20vh;
 }
 .about__mainItem {
@@ -82,7 +78,6 @@
   flex: 1;
   max-width: 30%;
   flex-direction: column;
-  /* border: 1px solid white; */
   justify-content: space-evenly;
   align-items: center;
   height: 18vh;
@@ -100,15 +95,12 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  /* height: 70vh; */
   overflow: hidden;
-  /* border: 1px solid black; */
   margin: 20px;
   object-fit: contain;
 }
 .about__education ul {
   align-items: flex-start;
-  /* border: 1px solid black; */
 }
 
 .about__education .MuiTimelineItem-missingOppositeContent:before {
@@ -128,8 +120,6 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-
-  /* border: 1px solid black; */
 }
 .about__timelineRight {
   width: 70%;
@@ -137,20 +127,16 @@
   flex-wrap: wrap;
   flex-direction: column;
   margin: 20px 0;
-  /* border: 1px solid red; */
 }
 .about__top {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* border: 1px solid black; */
 }
 .about__education img {
   height: 80px;
-  /* width: 120px; */
 }
 .about__workTop {
-  /* border: 1px solid orange; */
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
@@ -177,9 +163,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-
   margin-bottom: 2rem;
-  /* border: 1px solid orange; */
 }
 .about__workRow {
   display: flex;
@@ -187,14 +171,11 @@
   padding: 0 4px;
   width: 95%;
   justify-content: center;
-  /* align-items: center; */
-  /* border: 1px solid orange; */
 }
 .about__workColumn {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
-  /* border: 1px solid orange; */
 }
 
 .about__workColumn Img {
@@ -217,7 +198,6 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: black; */
   }
   .about h1 {
     font-size: 4rem;
@@ -227,7 +207,6 @@
   .about__rightSide {
     display: flex;
     margin: -1rem;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -253,8 +232,6 @@
     justify-content: center;
     flex-direction: column;
     margin: 40px 0;
-    /* border: 1px solid black; */
-    /* object-fit: contain; */
   }
   .about__mainItem p {
     text-align: center;
@@ -262,42 +239,19 @@
     font-size: 0.8rem;
     width: 100%;
     margin: 20px 0;
-    /* border: 1px solid red; */
   }
-
-  /* .about__main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid blue;
-    flex-direction: column;
-  }
-  .about__mainItem {
-    display: flex;
-    flex-direction: row;
-
-    border: 1px solid brown;
-
-    font-size: small;
-    height: 100%;
-  } */
-
   .about__timelineBody img {
     margin: 20px 0;
   }
-
   .about__bottom {
     display: flex;
     flex-direction: column;
   }
-
   .about__bottom p {
     display: flex;
     flex-direction: column;
     width: 120%;
   }
-
   .about__workTop img {
     height: 80px;
     margin-top: 2rem;
@@ -305,5 +259,12 @@
   .about__workInfo h3 {
     font-size: 1.15rem;
     width: 75%;
+  }
+  .about__education__school {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  .about__timelineBody > img {
+    margin-top: 3rem;
   }
 }

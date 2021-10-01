@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import './LandingPage.css';
 import SideBar from '../SideBar/SideBar';
-// import logo from '../logo-white.svg';
-// import '../App.css';
-// import '../../App.css';
 
 import { AiOutlineMail, AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 
+import { Overlay, Tooltip } from 'react-bootstrap';
+
 export default function LandingPage() {
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
   return (
     <div className="landingPage" id="landingPage">
       <div className="landingPage__heading">
@@ -23,7 +24,17 @@ export default function LandingPage() {
       </div>
 
       <div className="landingPage__icons">
-        <AiOutlineMail />
+        {/* eslint-disable-next-line */}
+        <a ref={target} onClick={() => setShow(!show)}>
+          <AiOutlineMail />
+        </a>
+        <Overlay target={target.current} show={show} placement="bottom">
+          {(props) => (
+            <Tooltip id="overlay-example" {...props}>
+              masonkimsj@gmail.com
+            </Tooltip>
+          )}
+        </Overlay>
         <a
           href="https://www.linkedin.com/in/masonkimm"
           target="_blank"

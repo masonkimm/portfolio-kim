@@ -14,7 +14,6 @@
   align-items: center;
   justify-content: space-evenly;
   height: 20vh;
-
   margin-bottom: 2rem;
 }
 .projectPage__heading h1 {
@@ -56,10 +55,6 @@
   vertical-align: middle;
   width: 100%;
 }
-/* .projectPage__project {
-  margin-top: 8px;
-  vertical-align: middle;
-} */
 
 @media (max-width: 800px) {
   .projectPage__column {

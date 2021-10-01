@@ -3,7 +3,6 @@
   right: 40px;
   top: 40px;
   font-size: small;
-
   margin: 0;
   padding: 0;
 }
@@ -11,7 +10,6 @@
 .sideBar .MuiTimeline-root {
   align-items: flex-start;
   font-size: small;
-  /* border: 1px solid white; */
 }
 
 .sideBar ul {

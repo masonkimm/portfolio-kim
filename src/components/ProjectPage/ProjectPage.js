@@ -18,18 +18,18 @@ import {
 import { GrMysql } from 'react-icons/gr';
 
 // images
-import weatherApp__main from '../../img/weatherApp__main.png';
-import todoList__main from '../../img/todoList__main.png';
-import snippetSaver__main from '../../img/snippetSaver__main.png';
-import covidTracker__main from '../../img/covid-19-tracker__main.png';
-import netflixClone__main from '../../img/netflixClone__main.png';
-import readMeGen__main from '../../img/readMeGen__main.png';
-import golfYelp__modal from '../../img/golfYelp__modal.jpeg';
-import employeeDirectory__main from '../../img/employeeDirectory__main.png';
-import superMario__main from '../../img/superMario__main.png';
-import triviaApp__main from '../../img/triviaApp__main.png';
-import blogApp__main from '../../img/blogApp__main.png';
-import facebook__clone from '../../img/FB-clone.png';
+import weatherApp from '../../img/weatherApp.png';
+import todoList from '../../img/todoList.png';
+import employeeDirectory from '../../img/employeeDirectory.png';
+import superMario from '../../img/superMario.png';
+import covidTracker from '../../img/covid19__tracker.png';
+import snippetSaver from '../../img/snippetSaver.png';
+import triviaApp from '../../img/triviaApp.png';
+import readMeGen from '../../img/readMeGen.png';
+import golfYelp from '../../img/golfYelp.png';
+import blogApp from '../../img/blogApp.png';
+import facebookClone from '../../img/facebookClone.png';
+import netflixClone from '../../img/netflixClone.png';
 
 export default function ProjectPage() {
   return (
@@ -57,7 +57,7 @@ export default function ProjectPage() {
             <Project
               title="Weather Checker"
               imgSrc="https://rb.gy/xk73kt"
-              imgOne={weatherApp__main}
+              imgOne={weatherApp}
               about="Weather App to check Current & Five-day forecase for anywhere in USA"
               techUsed="HTML, CSS, Bootstrap, JavaScript, jQuery, Weather - API, AJAX, Localhost, Git-Hub"
               date="June, 2020"
@@ -68,7 +68,7 @@ export default function ProjectPage() {
             <Project
               title="Todo List"
               imgSrc="https://rb.gy/krhasw"
-              imgOne={todoList__main}
+              imgOne={todoList}
               about="Simple Todo list to keep track of daily tasks"
               techUsed="HTML, CSS, Bootstrap, JavaScript, jQuery, Localhost, Git-Hub"
               date="July, 2020"
@@ -78,7 +78,7 @@ export default function ProjectPage() {
             <Project
               title="Employee-Directory"
               imgSrc="https://tinyurl.com/wh4f49hc"
-              imgOne={employeeDirectory__main}
+              imgOne={employeeDirectory}
               about="Directory of Employees."
               techUsed="React, JSX, Github"
               date="July, 2021"
@@ -91,7 +91,7 @@ export default function ProjectPage() {
             <Project
               title="Super Mario"
               imgSrc="https://tinyurl.com/t8hm3yvf"
-              imgOne={superMario__main}
+              imgOne={superMario}
               about="Classic Super Mario game."
               techUsed="HTML, CSS, JavaScript, Kaboom.js"
               date="August, 2021"
@@ -101,7 +101,7 @@ export default function ProjectPage() {
             <Project
               title="Covid-19 Tracker"
               imgSrc="https://rb.gy/j7ylrk"
-              imgOne={covidTracker__main}
+              imgOne={covidTracker}
               about="React based application to check worldwide, real-time COVID-19 data."
               techUsed="React.js, JSX, Material-UI, Numeral, Firebase"
               date="August, 2020"
@@ -111,7 +111,7 @@ export default function ProjectPage() {
             <Project
               title="Snippet Saver"
               imgSrc="https://rb.gy/a3odmj"
-              imgOne={snippetSaver__main}
+              imgOne={snippetSaver}
               about="Digital library for storing useful code snippets"
               techUsed="HTML, CSS, Bootstrap, JavaScript, MySQL, NPM Packages [Express, Express-Handlebars, MySQL], & Heroku"
               date="July, 2020"
@@ -124,7 +124,7 @@ export default function ProjectPage() {
             <Project
               title="Trivia-App"
               imgSrc="https://tinyurl.com/27ya36da"
-              imgOne={triviaApp__main}
+              imgOne={triviaApp}
               about="Trivia App with random questions to freshen up your game skills."
               techUsed="React.js, TypeScript, Github Pages"
               date="August, 2021"
@@ -135,7 +135,7 @@ export default function ProjectPage() {
             <Project
               title="ReadMe Generator"
               imgSrc="https://rb.gy/pddl6x"
-              imgOne={readMeGen__main}
+              imgOne={readMeGen}
               about="Backend tool for quickly generating a ReadMe.md file for a new project"
               techUsed="JavaScript, NPM, & Github"
               date="June, 2020"
@@ -145,7 +145,7 @@ export default function ProjectPage() {
             <Project
               title="Golf Yelp"
               imgSrc="https://images.unsplash.com/photo-1514480573427-1f96cbed6a27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1946&q=80"
-              imgOne={golfYelp__modal}
+              imgOne={golfYelp}
               about="Yelp for Golf! Post, review, and rate your favorite golf courses!"
               techUsed="Tech: HTML, CSS, JavaScript, Bootstrap, Express, EJS, Mongo, Mongoose, Map Box, Cloudinary, Passport & etc."
               date="June, 2021"
@@ -158,7 +158,7 @@ export default function ProjectPage() {
             <Project
               title="Blog - App"
               imgSrc="https://bit.ly/3l61mIY"
-              imgOne={blogApp__main}
+              imgOne={blogApp}
               about="Blog to post and share the lastest news."
               techUsed="JavaScript, Express, EJS, MongoDB, Mongoose, Heroku"
               date="September, 2021"
@@ -168,7 +168,7 @@ export default function ProjectPage() {
             <Project
               title="Facebook - Clone"
               imgSrc="https://rb.gy/tn8ncj"
-              imgOne={facebook__clone}
+              imgOne={facebookClone}
               about="Clone App of Netflix with dynamic banner, up-to-date lists of popular shows."
               techUsed="React, Material UI, Random User API, Unsplash API "
               date="September, 2021"
@@ -179,7 +179,7 @@ export default function ProjectPage() {
             <Project
               title="Netflix - Clone"
               imgSrc="https://rb.gy/xuk9su"
-              imgOne={netflixClone__main}
+              imgOne={netflixClone}
               about="Clone App of Netflix with dynamic banner, up-to-date lists of popular shows."
               techUsed="React, JSX, Netflix API, React Context API, GitHub, Firebase"
               date="August, 2020"

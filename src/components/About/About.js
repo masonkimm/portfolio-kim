@@ -140,7 +140,11 @@ export default function About() {
                   </TimelineSeparator>
 
                   <TimelineContent>
-                    <Typography variant="h6" component="h1">
+                    <Typography
+                      variant="h6"
+                      component="h1"
+                      className="about__education__school"
+                    >
                       George Mason University
                     </Typography>
 
@@ -188,7 +192,11 @@ export default function About() {
                   </TimelineSeparator>
 
                   <TimelineContent>
-                    <Typography variant="h6" component="h1">
+                    <Typography
+                      variant="h6"
+                      component="h1"
+                      className="about__education__school"
+                    >
                       George Washington University
                     </Typography>
 
