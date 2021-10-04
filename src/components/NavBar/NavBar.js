@@ -26,6 +26,7 @@ export default function NavBar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
+                aria-label="Link to landing page"
               >
                 Home
               </Link>
@@ -38,7 +39,12 @@ export default function NavBar() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Link to="about" smooth={true} spy={true}>
+              <Link
+                to="about"
+                smooth={true}
+                spy={true}
+                aria-label="Link to about section"
+              >
                 About
               </Link>
             </TimelineContent>
@@ -50,7 +56,12 @@ export default function NavBar() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Link to="projectPage" smooth={true} spy={true}>
+              <Link
+                to="projectPage"
+                smooth={true}
+                spy={true}
+                aria-label="Link to project section"
+              >
                 Projects
               </Link>
             </TimelineContent>
@@ -61,7 +72,12 @@ export default function NavBar() {
               <TimelineDot />
             </TimelineSeparator>
             <TimelineContent>
-              <Link to="contact" smooth={true} spy={true}>
+              <Link
+                to="contact"
+                smooth={true}
+                spy={true}
+                aria-label="Link to contact section"
+              >
                 Contact
               </Link>
             </TimelineContent>

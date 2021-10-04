@@ -18,14 +18,18 @@ export default function LandingPage() {
           </h1>
         </div>
 
-        <img src="https://rb.gy/xikudy" alt="" />
+        <img src="https://rb.gy/xikudy" alt="spinning logo" />
 
         <h2>Full-Stack Developer</h2>
       </div>
 
       <div className="landingPage__icons">
         {/* eslint-disable-next-line */}
-        <a ref={target} onClick={() => setShow(!show)}>
+        <a
+          ref={target}
+          onClick={() => setShow(!show)}
+          aria-label="Show email button"
+        >
           <AiOutlineMail />
         </a>
         <Overlay target={target.current} show={show} placement="bottom">
@@ -39,10 +43,16 @@ export default function LandingPage() {
           href="https://www.linkedin.com/in/masonkimm"
           target="_blank"
           rel="noreferrer"
+          aria-label="Link to Linkedin"
         >
           <AiFillLinkedin />
         </a>
-        <a href="https://github.com/masonkimm" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/masonkimm"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Link to Github"
+        >
           <AiOutlineGithub />
         </a>
       </div>

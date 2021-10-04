@@ -10,7 +10,7 @@ export default function Modal({ selectedImg, setSelectedImg, caption }) {
   return (
     <div className="modal">
       <div className="modal__backdrop" onClick={handleCloseModal}>
-        <img src={selectedImg} alt="" />
+        <img src={selectedImg} alt="work" />
         {caption && <h4>caption: {caption} </h4>}
       </div>
     </div>

@@ -53,9 +53,15 @@ export default function About() {
           <h1>About </h1>
         </Animated>
         <div className="about__menu">
-          <button onClick={handleShowMain}>Main</button>
-          <button onClick={handleShowEducation}>Education</button>
-          <button onClick={handleShowWork}>Work Experience</button>
+          <button onClick={handleShowMain} aria-label="Main">
+            Main
+          </button>
+          <button onClick={handleShowEducation} aria-label="Education">
+            Education
+          </button>
+          <button onClick={handleShowWork} aria-label="Work Experience">
+            Work Experience
+          </button>
         </div>
       </div>
 
@@ -75,7 +81,6 @@ export default function About() {
               <div className="about__main">
                 <div className="about__mainItem">
                   <FaUserGraduate size="1.5em" className="about__icon" />
-
                   <p>
                     Graduate from George Washington University's Coding Boot
                     Camp
@@ -84,7 +89,6 @@ export default function About() {
 
                 <div className="about__mainItem">
                   <MdComputer size="1.5em" />
-
                   <p>Detailed oriented, motivated, and passionate for coding</p>
                 </div>
 
@@ -106,18 +110,15 @@ export default function About() {
                   </h4>
                   <p>Bachelors of Science in Neuroscience</p>
                 </div>
-
                 <div className="about__mainItem">
                   <h4>
                     <FaBrain size="1.5em" />
                   </h4>
-
                   <p>
                     Background in research, large data analysis, programming,
                     and developing
                   </p>
                 </div>
-
                 <div className="about__mainItem">
                   <h4>
                     <GiComputerFan size="1.5em" />
@@ -151,8 +152,8 @@ export default function About() {
                     <div className="about__timelineBody">
                       <img
                         src="https://rb.gy/yzahfj"
-                        alt="gmu logo"
-                        className="about__PicGmu"
+                        alt="George Mason University logo"
+                        className="about__education__img"
                       />
                       <div className="about__timelineRight">
                         <div className="about__top">
@@ -170,12 +171,12 @@ export default function About() {
                         </p>
                         <div className="about__bottom">
                           <p>Fairfax, VA | 2016 </p>
-
                           <p>
                             <a
                               href="https://science.gmu.edu/academics/departments-units/neuroscience"
                               target="_blank"
                               rel="noreferrer"
+                              aria-label="Link to neuroscience department"
                             >
                               <AiOutlineLink /> gmu.com/neuroscience
                             </a>
@@ -185,12 +186,12 @@ export default function About() {
                     </div>
                   </TimelineContent>
                 </TimelineItem>
+
                 <TimelineItem>
                   <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                   </TimelineSeparator>
-
                   <TimelineContent>
                     <Typography
                       variant="h6"
@@ -199,17 +200,15 @@ export default function About() {
                     >
                       George Washington University
                     </Typography>
-
                     <div className="about__timelineBody">
                       <img
                         src="https://rb.gy/8gycsg"
-                        alt="gmu logo"
-                        className="about__PicGmu"
+                        alt="George Washington University"
+                        className="about__education__img"
                       />
                       <div className="about__timelineRight">
                         <div className="about__top">
                           <p>Full Stack Web Development</p>
-
                           <p>Coding Certificate</p>
                         </div>
                         <p>
@@ -223,12 +222,12 @@ export default function About() {
 
                         <div className="about__bottom">
                           <p>Washington, D.C. | 2020</p>
-
                           <p>
                             <a
                               href="https://bootcamp.cps.gwu.edu/"
                               target="_blank"
                               rel="noreferrer"
+                              aria-label="Link to George Washington University Boot Camp"
                             >
                               <AiOutlineLink /> gwu.edu/bootcamp.com
                             </a>
@@ -255,14 +254,12 @@ export default function About() {
             <div className="about__workTop">
               <img
                 src="https://www.janelia.org/sites/default/files/Design/HHMI_Janelia_Logo_Color.png"
-                alt="hhmi logo"
+                alt="Howard Hughes Medical Institution logo"
                 className="about__hhmi__img"
               />
               <div className="about__workInfo">
                 <h3>Howard Hughes Medical Institute - Janelia</h3>
-
                 <h5>
-                  {' '}
                   <i> Connectome Annotator </i>
                 </h5>
                 <p>Work Date: 2017-2020</p>
@@ -274,21 +271,21 @@ export default function About() {
                 <div className="about__workColumn">
                   <img
                     src="https://rb.gy/r4lbnb"
-                    alt=""
+                    alt="The annotation team"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/r4lbnb');
                     }}
                   />
                   <img
                     src="https://rb.gy/xljlru"
-                    alt=""
+                    alt="Connectome 1"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/xljlru');
                     }}
                   />
                   <img
                     src="https://rb.gy/vusnau"
-                    alt=""
+                    alt="Connectome 2"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/vusnau');
                     }}
@@ -297,21 +294,21 @@ export default function About() {
                 <div className="about__workColumn">
                   <img
                     src="https://rb.gy/oaiuoo"
-                    alt=""
+                    alt="Developer"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/oaiuoo');
                     }}
                   />
                   <img
                     src="https://rb.gy/je8b4x"
-                    alt=""
+                    alt="Connectome 3"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/je8b4x');
                     }}
                   />
                   <img
                     src="https://rb.gy/e66zc5"
-                    alt=""
+                    alt="Connectome 4"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/e66zc5');
                     }}
@@ -320,14 +317,14 @@ export default function About() {
                 <div className="about__workColumn">
                   <img
                     src="https://rb.gy/8hlzcv"
-                    alt=""
+                    alt="Connectome 5"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/8hlzcv');
                     }}
                   />
                   <img
                     src="https://rb.gy/pnnlh2"
-                    alt=""
+                    alt="Connectome machine"
                     onClick={() => {
                       setSelectedImg('https://rb.gy/pnnlh2');
                     }}
@@ -336,7 +333,7 @@ export default function About() {
                 <div className="about__workColumn">
                   <img
                     src="https://www.hhmi.org/sites/default/files/close-up_1200.gif"
-                    alt=""
+                    alt="Connectome 6"
                     onClick={() => {
                       setSelectedImg(
                         'https://www.hhmi.org/sites/default/files/close-up_1200.gif'
@@ -345,12 +342,12 @@ export default function About() {
                   />
                   <img
                     src="https://www.hhmi.org/sites/default/files/circuit_1800_tall.gif"
+                    alt="Connectome 7"
                     onClick={() => {
                       setSelectedImg(
                         'https://www.hhmi.org/sites/default/files/circuit_1800_tall.gif'
                       );
                     }}
-                    alt=""
                   />
                 </div>
               </div>

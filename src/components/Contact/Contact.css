@@ -12,7 +12,7 @@
   height: 180px;
 }
 
-.contactPage__icons {
+.contact__icons {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -20,21 +20,28 @@
   margin-top: 1rem;
   padding: 1rem;
 }
-.contactPage__icons a {
+.contact__email {
+  display: flex;
+  font-size: large;
+  font-weight: 200;
+  margin: 8px 0;
+}
+
+.contact__icons a {
   display: flex;
   font-size: large;
   font-weight: 100;
   margin: 8px 0;
 }
-.contactPage__icons a:hover {
+.contact__icons a:hover {
   color: white;
 }
-.contactPage__icons p {
+.contact__icons p {
   margin: 0 2rem;
   color: aliceblue;
 }
 @media (max-width: 600px) {
-  .contactPage__icons {
+  .contact__icons {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

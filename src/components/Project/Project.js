@@ -13,7 +13,7 @@ export default function Project(props) {
     <div className="project">
       <button onClick={() => setShow(true)}>
         <h3 id="project__title">{props.title}</h3>
-        <img src={props.imgSrc} alt="" />
+        <img src={props.imgSrc} alt={props.title} />
       </button>
 
       <Modal
@@ -32,7 +32,7 @@ export default function Project(props) {
           <h5>About</h5>
           <p>{props.about}</p>
           <div className="project__modalImg" onClick={() => setModalShow(true)}>
-            <img src={props.imgOne} alt="" />
+            <img src={props.imgOne} alt={props.title} />
           </div>
 
           <Modal
@@ -42,7 +42,7 @@ export default function Project(props) {
             centered
           >
             <Modal.Body>
-              <img src={props.imgOne} alt="" />
+              <img src={props.imgOne} alt={props.title} />
             </Modal.Body>
           </Modal>
 
@@ -56,7 +56,12 @@ export default function Project(props) {
               <span className="project__icon">
                 <AiOutlineGithub />
               </span>
-              <a href={props.gitHubLink} target="_blank" rel="noreferrer">
+              <a
+                href={props.gitHubLink}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Link to github"
+              >
                 Project Code
               </a>
             </p>
@@ -66,7 +71,12 @@ export default function Project(props) {
                   <AiOutlineLink />
                 </span>
 
-                <a href={props.link} target="_blank" rel="noreferrer">
+                <a
+                  href={props.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Link to project"
+                >
                   Project Link
                 </a>
               </p>
