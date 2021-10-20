@@ -21,6 +21,7 @@ import { GrMysql } from 'react-icons/gr';
 import weatherApp from '../../img/weatherApp.png';
 import todoList from '../../img/todoList.png';
 import employeeDirectory from '../../img/employeeDirectory.png';
+import expenseTracker from '../../img/expenseTracker.png';
 import superMario from '../../img/superMario.png';
 import covidTracker from '../../img/covid19__tracker.png';
 import snippetSaver from '../../img/snippetSaver.png';
@@ -90,6 +91,16 @@ export default function ProjectPage() {
           {/* column 2 */}
           <div className="projectPage__column">
             <Project
+              title="Expense Tracker"
+              imgSrc="https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80"
+              imgOne={expenseTracker}
+              about="Application to keep track of all income and expense."
+              techUsed="(MERN Stack )MongoDB, Express, React, Node"
+              date="Oct, 2021"
+              gitHubLink="https://github.com/masonkimm/expense-tracker"
+              link="https://sjk-expense-tracker.herokuapp.com/"
+            />
+            <Project
               title="Super Mario"
               imgSrc="https://tinyurl.com/t8hm3yvf"
               imgOne={superMario}
@@ -99,16 +110,7 @@ export default function ProjectPage() {
               gitHubLink="https://github.com/masonkimm/snippet-saver"
               link="https://masonkimm.github.io/super-mario/"
             />
-            <Project
-              title="Covid-19 Tracker"
-              imgSrc="https://rb.gy/j7ylrk"
-              imgOne={covidTracker}
-              about="React based application to check worldwide, real-time COVID-19 data."
-              techUsed="React.js, JSX, Material-UI, Numeral, Firebase"
-              date="August, 2020"
-              gitHubLink="https://github.com/masonkimm/covid-19-tracker"
-              link="https://covid-19-tracker-94838.web.app/"
-            />
+
             <Project
               title="Snippet Saver"
               imgSrc="https://rb.gy/a3odmj"
@@ -122,6 +124,16 @@ export default function ProjectPage() {
           </div>
           {/* column 3 */}
           <div className="projectPage__column">
+            <Project
+              title="Covid-19 Tracker"
+              imgSrc="https://rb.gy/j7ylrk"
+              imgOne={covidTracker}
+              about="React based application to check worldwide, real-time COVID-19 data."
+              techUsed="React.js, JSX, Material-UI, Numeral, Firebase"
+              date="August, 2020"
+              gitHubLink="https://github.com/masonkimm/covid-19-tracker"
+              link="https://covid-19-tracker-94838.web.app/"
+            />
             <Project
               title="Trivia-App"
               imgSrc="https://tinyurl.com/27ya36da"
