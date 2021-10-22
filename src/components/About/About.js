@@ -96,7 +96,7 @@ export default function About() {
                   <h4>
                     <GiTeamIdea size="1.5em" />
                   </h4>
-                  <p>
+                  <p id="about__team">
                     Looking forward to joining a great team to design & develop
                     creative websites and softwares.
                   </p>

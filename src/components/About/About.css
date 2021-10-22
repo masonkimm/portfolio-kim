@@ -89,6 +89,9 @@
   width: 90%;
   height: 18%;
 }
+#about__team {
+  margin-top: -20px;
+}
 
 .about__education {
   display: flex;
@@ -239,6 +242,9 @@
     font-size: 0.8rem;
     width: 100%;
     margin: 20px 0;
+  }
+  #about__team {
+    margin-top: 5px;
   }
   .about__timelineBody img {
     margin: 20px 0;
