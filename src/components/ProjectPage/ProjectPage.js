@@ -182,11 +182,11 @@ export default function ProjectPage() {
               title="Facebook - Clone"
               imgSrc="https://rb.gy/tn8ncj"
               imgOne={facebookClone}
-              about="Clone App of Facebook focused on front-end development."
-              techUsed="React, Material UI, Random User API, Unsplash API "
+              about="Facebook Clone app built with the MERN stack. Status updatable to make a new post!"
+              techUsed="MongoDB, Express, React, Node, react context, Material UI, Random User API, & Unsplash API."
               date="September, 2021"
-              gitHubLink="https://github.com/masonkimm/facebook-clone"
-              link="https://masonkimm.github.io/facebook-clone/"
+              gitHubLink="https://github.com/masonkimm/facebook-clone-mern"
+              link="https://sjk-facebook-mern.herokuapp.com/"
               className="projectPage__project"
             />
             <Project
