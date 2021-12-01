@@ -24,7 +24,7 @@ import employeeDirectory from '../../img/employeeDirectory.png';
 import expenseTracker from '../../img/expenseTracker.png';
 import superMario from '../../img/superMario.png';
 import covidTracker from '../../img/covid19__tracker.png';
-import snippetSaver from '../../img/snippetSaver.png';
+import snippetApp from '../../img/snippet__app.png';
 import triviaApp from '../../img/triviaApp.png';
 import readMeGen from '../../img/readMeGen.png';
 import golfYelp from '../../img/golfYelp.png';
@@ -114,12 +114,12 @@ export default function ProjectPage() {
             <Project
               title="Snippet Saver"
               imgSrc="https://rb.gy/a3odmj"
-              imgOne={snippetSaver}
+              imgOne={snippetApp}
               about="Digital library for storing useful code snippets"
-              techUsed="HTML, CSS, Bootstrap, JavaScript, MySQL, NPM Packages [Express, Express-Handlebars, MySQL], & Heroku"
-              date="July, 2020"
-              gitHubLink="https://github.com/masonkimm/snippet-saver"
-              link="https://sjk-snippetsaver.herokuapp.com/"
+              techUsed="React, Bootstrap, MySQL, NPM Packages [Express, Node, MySQL, Axios, React-Router-Dom], & Heroku"
+              date="Nov, 2021"
+              gitHubLink="https://github.com/masonkimm/snippet-app-mysql"
+              link="https://sjk-snippets.herokuapp.com/"
             />
           </div>
           {/* column 3 */}
