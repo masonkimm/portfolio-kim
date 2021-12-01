@@ -107,7 +107,7 @@ export default function ProjectPage() {
               about="Classic Super Mario game."
               techUsed="HTML, CSS, JavaScript, Kaboom.js"
               date="August, 2021"
-              gitHubLink="https://github.com/masonkimm/snippet-saver"
+              gitHubLink="https://github.com/masonkimm/super-mario"
               link="https://masonkimm.github.io/super-mario/"
             />
 
