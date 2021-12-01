@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-kim/static/css/main.7abe3adc.chunk.css",
-    "main.js": "/portfolio-kim/static/js/main.d3bdbd6a.chunk.js",
-    "main.js.map": "/portfolio-kim/static/js/main.d3bdbd6a.chunk.js.map",
+    "main.js": "/portfolio-kim/static/js/main.7dfbdd36.chunk.js",
+    "main.js.map": "/portfolio-kim/static/js/main.7dfbdd36.chunk.js.map",
     "runtime-main.js": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js",
     "runtime-main.js.map": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js.map",
     "static/css/2.a1596f27.chunk.css": "/portfolio-kim/static/css/2.a1596f27.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/logo.6ce24c58.svg": "/portfolio-kim/static/media/logo.6ce24c58.svg",
     "static/media/netflixClone.d3bf3e4d.png": "/portfolio-kim/static/media/netflixClone.d3bf3e4d.png",
     "static/media/readMeGen.6e6e7823.png": "/portfolio-kim/static/media/readMeGen.6e6e7823.png",
-    "static/media/snippetSaver.b3e02ef3.png": "/portfolio-kim/static/media/snippetSaver.b3e02ef3.png",
+    "static/media/snippet__app.9f30ed1e.png": "/portfolio-kim/static/media/snippet__app.9f30ed1e.png",
     "static/media/superMario.5ff32ee5.png": "/portfolio-kim/static/media/superMario.5ff32ee5.png",
     "static/media/todoList.60eac1ba.png": "/portfolio-kim/static/media/todoList.60eac1ba.png",
     "static/media/triviaApp.a683ed43.png": "/portfolio-kim/static/media/triviaApp.a683ed43.png",
@@ -33,6 +33,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.5694415e.chunk.js",
     "static/css/main.7abe3adc.chunk.css",
-    "static/js/main.d3bdbd6a.chunk.js"
+    "static/js/main.7dfbdd36.chunk.js"
   ]
 }
