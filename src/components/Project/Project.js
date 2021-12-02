@@ -12,7 +12,7 @@ export default function Project(props) {
   return (
     <div className="project">
       <button onClick={() => setShow(true)}>
-        <h3 id="project__title">{props.title}</h3>
+        <h3 className="project__title">{props.title}</h3>
         <img src={props.imgSrc} alt={props.title} />
       </button>
 
@@ -83,7 +83,7 @@ export default function Project(props) {
             )}
           </div>
 
-          <p id="project__date">Date: {props.date}</p>
+          <p className="project__date">Date: {props.date}</p>
         </Modal.Body>
       </Modal>
     </div>

@@ -1,11 +1,16 @@
 .navBar {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   position: fixed;
+  align-items: center;
   z-index: 100;
-  height: 100vh;
-  justify-content: space-around;
+  height: 22vh;
+  justify-content: center;
+
+  top: 38%;
+  padding-top: 2rem;
+  background-color: black;
+  border-radius: 17px;
 }
 .navBar__timeline .MuiTimeline-root {
   width: 20%;
@@ -13,11 +18,13 @@
   align-items: flex-start;
   font-size: small;
 }
+
 .navBar a {
   text-align: center;
   color: white;
   border-radius: 7px;
   cursor: pointer;
+  font-size: 20px;
 }
 .navBar a:hover {
   color: white !important;
