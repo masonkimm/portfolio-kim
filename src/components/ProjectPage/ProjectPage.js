@@ -8,14 +8,14 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import {
   SiJavascript,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiReact,
-  SiMaterialUi,
+  SiMui,
   SiMongodb,
   SiJquery,
   SiBootstrap,
+  SiMysql,
 } from 'react-icons/si';
-import { GrMysql } from 'react-icons/gr';
 
 // images
 import weatherApp from '../../img/weatherApp.png';
@@ -42,13 +42,13 @@ export default function ProjectPage() {
           <AiFillHtml5 className="icon" />
           <DiCss3 className="icon" />
           <SiJavascript className="icon" />
-          <SiNodeDotJs className="icon" />
+          <SiNodedotjs className="icon" />
           <SiReact className="icon" />
-          <GrMysql className="icon" />
+          <SiMysql className="icon" />
           <SiMongodb className="icon" />
           <SiJquery className="icon" />
           <SiBootstrap className="icon" />
-          <SiMaterialUi className="icon" />
+          <SiMui className="icon" />
         </div>
       </div>
 

@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="contact__icons">
         <div className="contact__email">
           <AiOutlineMail fontSize="1.5rem" style={{ color: '#007bff' }} />
-          <p> masonkimsj@gmail.com</p>
+          <p> sjmasonkim@gmail.com</p>
         </div>
 
         <a

@@ -14,7 +14,7 @@ export default function LandingPage() {
       <div className="landingPage__heading">
         <div className="landingPage__topRow">
           <h1>
-            Mason <span>SungJin </span>Kim
+            Mason <span>SJ </span>Kim
           </h1>
         </div>
 
