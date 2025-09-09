@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-kim/static/css/main.e380f259.chunk.css",
-    "main.js": "/portfolio-kim/static/js/main.f57b9492.chunk.js",
-    "main.js.map": "/portfolio-kim/static/js/main.f57b9492.chunk.js.map",
-    "runtime-main.js": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js",
-    "runtime-main.js.map": "/portfolio-kim/static/js/runtime-main.2cef3ed8.js.map",
-    "static/css/2.a1596f27.chunk.css": "/portfolio-kim/static/css/2.a1596f27.chunk.css",
-    "static/js/2.5694415e.chunk.js": "/portfolio-kim/static/js/2.5694415e.chunk.js",
-    "static/js/2.5694415e.chunk.js.map": "/portfolio-kim/static/js/2.5694415e.chunk.js.map",
+    "main.css": "/portfolio-kim/static/css/main.4182b490.chunk.css",
+    "main.js": "/portfolio-kim/static/js/main.4f3dfa11.chunk.js",
+    "main.js.map": "/portfolio-kim/static/js/main.4f3dfa11.chunk.js.map",
+    "runtime-main.js": "/portfolio-kim/static/js/runtime-main.ddeab18a.js",
+    "runtime-main.js.map": "/portfolio-kim/static/js/runtime-main.ddeab18a.js.map",
+    "static/css/2.276ef6a7.chunk.css": "/portfolio-kim/static/css/2.276ef6a7.chunk.css",
+    "static/js/2.f649d4be.chunk.js": "/portfolio-kim/static/js/2.f649d4be.chunk.js",
+    "static/js/2.f649d4be.chunk.js.map": "/portfolio-kim/static/js/2.f649d4be.chunk.js.map",
     "index.html": "/portfolio-kim/index.html",
-    "static/css/2.a1596f27.chunk.css.map": "/portfolio-kim/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.e380f259.chunk.css.map": "/portfolio-kim/static/css/main.e380f259.chunk.css.map",
-    "static/js/2.5694415e.chunk.js.LICENSE.txt": "/portfolio-kim/static/js/2.5694415e.chunk.js.LICENSE.txt",
+    "static/css/2.276ef6a7.chunk.css.map": "/portfolio-kim/static/css/2.276ef6a7.chunk.css.map",
+    "static/css/main.4182b490.chunk.css.map": "/portfolio-kim/static/css/main.4182b490.chunk.css.map",
+    "static/js/2.f649d4be.chunk.js.LICENSE.txt": "/portfolio-kim/static/js/2.f649d4be.chunk.js.LICENSE.txt",
     "static/media/amazonClone.8eb9a8ef.png": "/portfolio-kim/static/media/amazonClone.8eb9a8ef.png",
     "static/media/blogApp.dcc4f297.png": "/portfolio-kim/static/media/blogApp.dcc4f297.png",
     "static/media/covid19__tracker.0a1e68ba.png": "/portfolio-kim/static/media/covid19__tracker.0a1e68ba.png",
@@ -29,10 +29,10 @@
     "static/media/weatherApp.a9d1b788.png": "/portfolio-kim/static/media/weatherApp.a9d1b788.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2cef3ed8.js",
-    "static/css/2.a1596f27.chunk.css",
-    "static/js/2.5694415e.chunk.js",
-    "static/css/main.e380f259.chunk.css",
-    "static/js/main.f57b9492.chunk.js"
+    "static/js/runtime-main.ddeab18a.js",
+    "static/css/2.276ef6a7.chunk.css",
+    "static/js/2.f649d4be.chunk.js",
+    "static/css/main.4182b490.chunk.css",
+    "static/js/main.4f3dfa11.chunk.js"
   ]
 }
